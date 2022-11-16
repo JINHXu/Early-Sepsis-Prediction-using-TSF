@@ -37,3 +37,11 @@ Task to do:
 * [SOFA to describe organ failure](https://link.springer.com/content/pdf/10.1007/BF01709751.pdf)
 
 * [TSF with ML](https://www.youtube.com/watch?v=_ZQ-lQrK9Rg&t=185s)
+
+## More thoughts
+
+Beyond the current approach for time series forecasting
+
+* Survival Analysis? (Time-to-event Analysis)
+
+* various other approaches to TSF 
