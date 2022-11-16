@@ -28,6 +28,8 @@ Task to do:
 
 ## Resources
 
+* [MIMIC data extraction tool](https://github.com/MLforHealth/MIMIC_Extract)
+
 * code for wang et al.: pending request
 
 * calculate PhysioNet challenge utility score [code](https://github.com/physionetchallenges/python-example-2019)
@@ -38,7 +40,11 @@ Task to do:
 
 * [TSF with ML](https://www.youtube.com/watch?v=_ZQ-lQrK9Rg&t=185s)
 
-## More thoughts
+## Extended Reading List
+
+* 
+
+## More thoughts 
 
 Beyond the current approach for time series forecasting
 
