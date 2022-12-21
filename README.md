@@ -52,19 +52,19 @@ to be discussed in a later stage
 * Significance testing
 * Ablation Study
 
-## MIMIC-III Data
+### MIMIC-III Data
 
 * [Database Physionet](https://physionet.org/content/mimiciii/1.4/)
 * [How to get data](https://mimic.mit.edu/docs/gettingstarted/)
 * [Application form](https://physionet.org/credential-application/)
 
-## Keep some documentations on overleaf?
+### Keep some documentations on overleaf?
 
 [Overleaf Link](https://www.overleaf.com/5363766881tqvnbdymqnfs) (Currently an ACL template)
 
 _I also have a parser for `GitHub markdown` tables to `latex` tables conversion: [link](https://github.com/JINHXu/MDtable2Latex)_
 
-## Problem Setup
+### Problem Setup
 
 Time Series Forecasting consistent with PhysioNet challenge?
 
@@ -76,7 +76,7 @@ Task to do:
 
 * in our case -> altering a binary classification model into a regression model! MSE loss 
 
-## Resources
+### Resources
 
 * [MIMIC data extraction tool](https://github.com/MLforHealth/MIMIC_Extract)
 
@@ -90,11 +90,11 @@ Task to do:
 
 * [TSF with ML](https://www.youtube.com/watch?v=_ZQ-lQrK9Rg&t=185s)
 
-## Extended Reading List
+### Extended Reading List
 
 * 
 
-## More thoughts 
+### More thoughts 
 
 Beyond the current approach for time series forecasting
 
