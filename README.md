@@ -2,6 +2,31 @@
 
 Code repository for Research Module with Prof. Riezler (WS22): Natalia, Pablo, Jinghua
 
+Early sepsis prediction 
+
+## Data
+
+### Datasets
+
+### Data Inspection
+
+* MIMIC-III 
+
+* Mannheim Data
+
+### Feature Selection
+
+* Discuss in the first meeting in January
+
+* For now: 
+
+## Models 
+
+## Experiments
+
+## Further Analysis
+
+
 ## MIMIC-III Data
 
 * [Database Physionet](https://physionet.org/content/mimiciii/1.4/)
