@@ -52,6 +52,8 @@ to be discussed in a later stage
 * Significance testing
 * Ablation Study
 
+## OLD NOTES
+
 ### MIMIC-III Data
 
 * [Database Physionet](https://physionet.org/content/mimiciii/1.4/)
