@@ -61,7 +61,7 @@ class Condition(NamedTuple):
     catecholamine: Optional[Catecholamine]
     platelets_count: int
     creatinine_level: float
-    urine_output: Optional[Urine]
+    urine_output: float
     bilirubin_level: float
     glasgow_coma_scale: int
     partial_pressure_of_oxygen: float
@@ -74,7 +74,7 @@ def compute(condition: Condition) -> int:
         catecholamine=condition.catecholamine,
     )
     cg_score = compute_score_for_coagulation(platelets_count=condition.platelets_count)
-    kdny_score = compute_score_for_kidneys(creatinine_level=condition.creatinine_level)
+    kdny_score = compute_score_for_kidneys(creatinine_level=condition.creatinine_level, urine_output=condition.urine_output)
     livr_score = compute_score_for_liver(bilirubin_level=condition.bilirubin_level)
     ns_score = compute_score_for_nervous_system(
         glasgow_coma_scale=condition.glasgow_coma_scale
@@ -126,14 +126,14 @@ def compute_score_for_coagulation(platelets_count: int) -> int:
     return 0
 
 
-def compute_score_for_kidneys(creatinine_level: float, urine_output: Optional[Urine]) -> int:
+def compute_score_for_kidneys(creatinine_level: float, urine_output: float) -> int:
     """
     Computes score based on Creatinine level (unit is mg/dl) and urine output (unit is mL/d).
     """
     if urine_output:
-        if urine_output.dosage < 200:
+        if urine_output < 200:
             return 4
-        if urine_output.dosage < 500:
+        if urine_output < 500:
             return 3
     if creatinine_level >= 5.0:
         return 4
@@ -268,12 +268,12 @@ def get_t_sus(IV, cultures) -> int:
     """
     time of suspicion, needs exception for when IV and cultures are too far apart -> No sepsis
     """
-    if IV==cultures:
-        return IV
-    elif not str(IV).isdigit() and IV==False:
+    if not str(IV).isdigit() and IV==False:
         return False
     elif not str(cultures).isdigit() and cultures==False:
         return False
+    elif IV==cultures:
+        return IV
     elif IV<cultures and cultures-IV <= 24:
         return IV
     elif cultures<IV and IV-cultures <= 72:
