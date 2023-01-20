@@ -1,0 +1,132 @@
+# 131 features for pretraining = 129 features + 2 static features (Age & Gender)
+Unknown
+SG Urine
+Lymphocytes
+FiO2
+Glucose (Blood)
+D5W
+Piggyback
+EBL
+Bilirubin (Indirect)
+Lorazepam
+Epinephrine
+Emesis
+Magnesium
+GCS_motor
+Dextrose Other
+Lactate
+Albumin 25%
+Propofol
+Phosphate
+Hydralazine
+Bilirubin (Total)
+pH Blood
+Sterile Water
+Furosemide
+MBP
+PCO2
+Neutrophils
+Hydromorphone
+Glucose (Whole Blood)
+MCHC
+Gender
+Chloride
+Anion Gap
+MCH
+Amiodarone
+Insulin Regular
+Lymphocytes (Absolute)
+RBC
+Eoisinophils
+Free Water
+PTT
+Monocytes
+Solution
+PO intake
+pH Urine
+Intubated
+TPN
+Bilirubin (Direct)
+Insulin Humalog
+Normal Saline
+Height
+Famotidine
+Calcium Total
+Colloid
+Metoprolol
+GT Flush
+Insulin largine
+Lactated Ringers
+Hgb
+Base Excess
+Magnesium Sulfate (Bolus)
+Residual
+Fresh Frozen Plasma
+GCS_eye
+Calcium Free
+Stool
+RDW
+Packed RBC
+CRR
+Dopamine
+Albumin
+Creatinine Blood
+Temperature
+Calcium Gluconate
+KCl
+ALT
+Magnesium Sulphate
+Insulin NPH
+Piperacillin
+PO2
+Platelet Count
+Pantoprazole
+HR
+Gastric
+Pre-admission Output
+SBP
+ALP
+Ultrafiltrate
+Vasopressin
+Fiber
+KCl (Bolus)
+Midazolam
+Albumin 5%
+Nitroglycerine
+Heparin
+Total CO2
+Neosynephrine
+Creatinine Urine
+GCS_verbal
+Vacomycin
+WBC
+Pre-admission Intake
+INR
+Fentanyl
+RR
+DBP
+Nitroprusside
+OR/PACU Crystalloid
+Norepinephrine
+Glucose (Serum)
+Sodium
+Age
+Weight
+Half Normal Saline
+Milrinone
+O2 Saturation
+Morphine Sulfate
+AST
+Hct
+LDH
+Chest Tube
+Gastric Meds
+Urine
+Jackson-Pratt
+PT
+BUN
+Potassium
+Bicarbonate
+Cefazolin
+Basophils
+MCV
