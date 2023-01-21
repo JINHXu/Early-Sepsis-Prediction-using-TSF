@@ -2,7 +2,7 @@
 
 Code repository for Research Module with Prof. Riezler (WS22): Natalia, Pablo, Jinghua
 
-A self-supervised approach to early sepsis prediction using physiological features and clinical notes.
+A tranformer-based self-supervised approach to early sepsis prediction using physiological features and clinical notes.
 
 ## Data
 
@@ -103,3 +103,11 @@ Beyond the current approach for time series forecasting
 * Survival Analysis? (Time-to-event Analysis)
 
 * various other approaches to TSF 
+
+### Computing Resources
+
+* [bw Uni Cluster](https://login.bwidm.de/service/index.xhtml?serviceId=1012)
+
+* [Jupyter Documentations](https://wiki.bwhpc.de/e/BwUniCluster2.0/Jupyter)
+
+* [File System/Data Management](https://wiki.bwhpc.de/e/BwUniCluster2.0/Hardware_and_Architecture)
