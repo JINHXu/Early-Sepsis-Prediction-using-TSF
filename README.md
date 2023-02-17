@@ -20,6 +20,8 @@ __Each dataset is stored in pkl, each pkl loads a `data` table (essentially for 
 
 * [Write-up](https://www.overleaf.com/5363766881tqvnbdymqnfs) (to reveal specifics per chapter) 
 
+* Colab notebooks will be added later
+
 ## Data
 
 ### Datasets
