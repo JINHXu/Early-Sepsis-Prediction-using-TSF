@@ -4,6 +4,14 @@ Code repository for Research Module with Prof. Riezler (WS22): Natalia, Pablo, J
 
 A tranformer-based self-supervised approach to early sepsis prediction using physiological features and clinical notes.
 
+## Important Links to Resources
+
+* [Large Data Files on Google Drive]()
+
+   * 
+
+* [Write-up]()
+
 ## Data
 
 ### Datasets
@@ -19,23 +27,27 @@ A tranformer-based self-supervised approach to early sepsis prediction using phy
 
 ### Feature Selection
 
-* Discuss in the first meeting in January
 
-  * same features for pretraining and finetuning?
 
-* For now: Mannheim features ^ 40 features in wang et al. ^ 40 features in physionet challenge 2019
+* ~~Discuss in the first meeting in January~~
+
+  * ~~same features for pretraining and finetuning?~~
+
+* ~~For now: Mannheim features ^ 40 features in wang et al. ^ 40 features in physionet challenge 2019~~
 
 ## Models 
 
-* the exact strats model
+* Strats (baseline, physiological features only)
 
-* if it works out: strats model with more flexible prediction window 
+* Strats + Text 
 
-## Experiments
+* Wish: More flexible forecasting window!
 
-Baselines:
+## ~~Experiments~~
 
-* [SEFT](https://github.com/BorgwardtLab/Set_Functions_for_Time_Series)?
+~~Baselines:~~
+
+* ~~[SEFT](https://github.com/BorgwardtLab/Set_Functions_for_Time_Series)?~~
 * 
 
 
@@ -44,13 +56,14 @@ Baselines:
 
 to be discussed in a later stage
 
-* AUC-ROC
-* physionet challenge 2019
+* AUC-ROC (implemented in Strats)
+* physionet challenge 2019 Evaluation Scheme [link to python implementation](https://github.com/physionetchallenges/evaluation-2019)
 
 ## Further Analysis
 
-* Significance testing
-* Ablation Study
+* Significance testing: with text vs. without text model
+
+* ~~Ablation Study~~
 
 ## OLD NOTES
 
