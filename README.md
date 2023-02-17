@@ -4,13 +4,21 @@ Code repository for Research Module with Prof. Riezler (WS22): Natalia, Pablo, J
 
 A tranformer-based self-supervised approach to early sepsis prediction using physiological features and clinical notes.
 
-## Important Links to Resources
+## Important Links to Data/Resources/Colab Notebooks/Write-up
 
-* [Large Data Files on Google Drive]()
+* Large Data Files on Google Drive (share link in a private email)
+   
+   * Mortality Data _for dry run_ (original) ✅
+   
+   * Sepsis Data, three additional features (to be added) ☑️
+   
+   * Sepsis Data, three additional features + clinical notes (to be added) ☑️
 
-   * 
+__Each dataset is stored in pkl, each pkl loads a `data` table (essentially for pretraining, but also used for tuning) and a `oc` table (essentially for tuning).__
 
-* [Write-up]()
+* [Train/test/val split by patient id](https://github.com/JINHXu/Research-Module-WS22-Natalia-Pablo-Jinghua/tree/main/sepsis_id_split) ✅
+
+* [Write-up](https://www.overleaf.com/5363766881tqvnbdymqnfs) (to reveal specifics per chapter) 
 
 ## Data
 
@@ -19,21 +27,26 @@ A tranformer-based self-supervised approach to early sepsis prediction using phy
 * [MIMIC-III](https://physionet.org/content/mimiciii/1.4/)
 * [Mannheim Data](https://www.cl.uni-heidelberg.de/statnlpgroup/sepsisexp/)
 
-### Data Inspection
+### Features
 
-* MIMIC-III 
++ [131 features](https://github.com/JINHXu/Research-Module-WS22-Natalia-Pablo-Jinghua/blob/main/features/pretraining_features.txt) = 129 physiological features + 2 static features (Age & Gender)
 
-* Mannheim Data
++ 3 additional features for sepsis check
 
-### Feature Selection
-
-
++ clinical notes
 
 * ~~Discuss in the first meeting in January~~
 
   * ~~same features for pretraining and finetuning?~~
 
 * ~~For now: Mannheim features ^ 40 features in wang et al. ^ 40 features in physionet challenge 2019~~
+
+
+### Data Inspection
+
+* MIMIC-III 
+
+* Mannheim Data
 
 ## Models 
 
