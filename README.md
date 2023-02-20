@@ -11,8 +11,16 @@ A tranformer-based self-supervised approach to early sepsis prediction using phy
    * Mortality Data _for dry run_ (original) ✅
    
    * Sepsis Data, three additional features (to be added) ☑️
+      
+      * smaller set: `data` table = `oc` table ✅
+      
+      * full set: `data` table > `oc` table ☑️
    
    * Sepsis Data, three additional features + clinical notes (to be added) ☑️
+   
+      * smaller set: `data` table = `oc` table ☑️
+      
+      * full set: `data` table > `oc` table ☑️
 
 __Each dataset is stored in pkl, each pkl loads a `data` table (essentially for pretraining, but also used for tuning) and a `oc` table (essentially for tuning).__
 
