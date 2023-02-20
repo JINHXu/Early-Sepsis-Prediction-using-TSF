@@ -30,6 +30,17 @@ __Each dataset is stored in pkl, each pkl loads a `data` table (essentially for 
 
 * Colab notebooks will be added later
 
+## Computing Requirement
+
+_Document how much RAM required for each experiment._
+
+| Exp/Model       | System RAM         | GPU  | Additional Notes|
+| ------------- |:-------------:| -----:| --- |
+| Mortality model pretraining   | $>35GB$ | 1 | |
+|     |      |    | |
+|     |  | |     |
+
+
 ## Data
 
 ### Datasets
@@ -98,7 +109,7 @@ to be discussed in a later stage
 
 ### Keep some documentations on overleaf?
 
-[Overleaf Link](https://www.overleaf.com/5363766881tqvnbdymqnfs) (Currently an ACL template)
+~~[Overleaf Link](https://www.overleaf.com/5363766881tqvnbdymqnfs) (Currently an ACL template)~~
 
 _I also have a parser for `GitHub markdown` tables to `latex` tables conversion: [link](https://github.com/JINHXu/MDtable2Latex)_
 
