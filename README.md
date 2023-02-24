@@ -34,13 +34,16 @@ __Each dataset is stored in pkl, each pkl loads a `data` table (essentially for 
 
 _Document how much RAM required for each experiment._
 
+__RAM usage peak often reached during `loading data into matrices for forecasting`__
+
 | Exp/Model       | System RAM | GPU RAM | GPU  | time |Additional Notes|
 | ------------- |:-------------:| -----:| --- | --- | --|
-| Exactly reproduce Strats Exp for Mortality Prediction | Max at __32.8 GB__ | 0 | `GPU  Name  Persistence-M`| approx. `1 h` | peak reached at loading data into matrices for pretraining/forecasting |
-| Mortality model pretraining   | $>35GB$ | 1 | |
-|     |      |    | |
-|     |  | |     |
-
+| Exactly reproduce Strats Exp for Mortality Prediction | Max at __32.8 GB__ | 0 |  `Persistence-M`| - | `loading data into matrices for forecasting` |
+| Mortality model pretraining  | $>35GB$ | 0 | | | |
+|  `starts_sepsis_large`  |   `31.7GB`   |    | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
 
 ## Data
 
