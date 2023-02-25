@@ -38,9 +38,12 @@ __RAM usage peak often reached during `loading data into matrices for forecastin
 
 | Exp/Model       | System RAM | GPU RAM | GPU  | time |Additional Notes|
 | ------------- |:-------------:| -----:| --- | --- | --|
-| Exactly reproduce Strats Exp for Mortality Prediction | Max at __32.8 GB__ | 0 |  `Persistence-M`| - | `loading data into matrices for forecasting` |
-| Mortality model pretraining  | $>35GB$ | 0 | | | |
-|  `starts_sepsis_large`  |   `31.7GB`   |    | |
+| strats mortality exact reproduce | Max at __32.8 GB__ | 0 |  `Persistence-M`| - | `loading data into matrices for forecasting` |
+| strats mortality dry run (with our old ids) | $>35GB$ | 0 | | | |
+|  `starts_sepsis_small`  |      |    | | | |
+|  `starts_sepsis_large`  |   `31.7GB`   |    | | | |
+|  `starts_sepsis_small` with text  |      |    | | | |
+|  `starts_sepsis_large`  with text |      |    | | | |
 | | | | | | |
 | | | | | | |
 | | | | | | |
