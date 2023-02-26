@@ -28,7 +28,24 @@ __Each dataset is stored in pkl, each pkl loads a `data` table (essentially for 
 
 * [Write-up](https://www.overleaf.com/5363766881tqvnbdymqnfs) (to reveal specifics per chapter) 
 
-* Colab notebooks will be added later
+* Experiments (Colab Notebooks)
+
+   * Dry-runs and tests to explore `Mortality data, models, env setups and etc.`
+
+      * [Initial Dry-run](https://colab.research.google.com/drive/1IukayX0FfGVyOXI6S-8P3AvSmQMzMBe0?usp=sharing)
+   
+      * [Test Run](https://colab.research.google.com/drive/1o80r9LQSqSx3x1_HqnyJ5JluNQPjmTWf?usp=sharing)
+
+   * Forecasting and target prediction without text:
+   
+      * [Sepsis pre-text small]()
+   
+      * [Sepsis pre-text large]()
+
+   * Forecasting and target prediction with text:
+
+      * tba
+
 
 ## Computing Requirement
 
