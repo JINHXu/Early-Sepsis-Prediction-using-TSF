@@ -14,7 +14,7 @@ A tranformer-based self-supervised approach to early sepsis prediction using phy
       
       * smaller set: `data` table = `oc` table ✅
       
-      * full set: `data` table > `oc` table ☑️
+      * full set: `data` table > `oc` table ✅
    
    * Sepsis Data, three additional features + clinical notes (to be added) ☑️
    
@@ -24,7 +24,15 @@ A tranformer-based self-supervised approach to early sepsis prediction using phy
 
 __Each dataset is stored in pkl, each pkl loads a `data` table (essentially for pretraining, but also used for tuning) and a `oc` table (essentially for tuning).__
 
-* [Train/test/val split by patient id](https://github.com/JINHXu/Research-Module-WS22-Natalia-Pablo-Jinghua/tree/main/sepsis_id_split) ✅
+* ~~[Train/test/val split by patient id](https://github.com/JINHXu/Research-Module-WS22-Natalia-Pablo-Jinghua/tree/main/sepsis_id_split) ✅~~
+
+* __Original planned sepsis patient ids not found in data, updated:__
+
+   * [original ids not found in data](https://github.com/JINHXu/Research-Module-WS22-Natalia-Pablo-Jinghua/tree/main/updated_sepsis_patient_ids/diff)
+   
+   * [updated ids pretext_small](https://github.com/JINHXu/Research-Module-WS22-Natalia-Pablo-Jinghua/tree/main/updated_sepsis_patient_ids/pretext_small)
+   
+   * [updated ids pretext_large](https://github.com/JINHXu/Research-Module-WS22-Natalia-Pablo-Jinghua/tree/main/updated_sepsis_patient_ids/pretext_large)
 
 * [Write-up](https://www.overleaf.com/5363766881tqvnbdymqnfs) (to reveal specifics per chapter) 
 
