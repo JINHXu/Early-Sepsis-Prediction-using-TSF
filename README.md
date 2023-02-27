@@ -46,9 +46,9 @@ __Each dataset is stored in pkl, each pkl loads a `data` table (essentially for 
 
    * Forecasting and target prediction without text:
    
-      * [Sepsis pre-text small]()
+      * [Sepsis pre-text small](https://colab.research.google.com/drive/1SBwgFOVflbtbcKO7katz5C0lyB9nBCTT?usp=sharing)
    
-      * [Sepsis pre-text large]()
+      * [Sepsis pre-text large](https://colab.research.google.com/drive/1dhPbpQqpf9eGIX-TlbgOdyMvfXhBvpRG?usp=sharing)
 
    * Forecasting and target prediction with text:
 
