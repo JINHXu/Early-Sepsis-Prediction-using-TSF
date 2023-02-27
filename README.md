@@ -10,7 +10,7 @@ A tranformer-based self-supervised approach to early sepsis prediction using phy
    
    * Mortality Data _for dry run_ (original) ✅
    
-   * Sepsis Data, three additional features (to be added) ☑️
+   * Sepsis Data, three additional features (to be added) ✅
       
       * smaller set: `data` table = `oc` table ✅
       
