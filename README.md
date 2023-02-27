@@ -65,6 +65,12 @@ __RAM usage peak often reached during `loading data into matrices for forecastin
 | | | | | | |
 | | | | | | |
 
+#### Observations:
+
+- RAM usage peak often reached during loading data for forecasting
+- usage instable at each run
+- fluctuate to a higher level, not that much more used
+
 ## Data
 
 ### Datasets
