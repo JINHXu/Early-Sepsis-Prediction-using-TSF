@@ -65,8 +65,8 @@ __RAM usage peak often reached during `loading data into matrices for forecastin
 | ------------- |:-------------:| -----:| --- | --- | --|
 | strats mortality exact reproduce | Max at __32.8 GB__ | 0 |  `Persistence-M`| - | `loading data into matrices for forecasting` |
 | strats mortality dry run (with our old ids) | $>35GB$ | 0 | | | |
-|  `starts_sepsis_small`  |   reached `33 GB` at epoch 15 and increasing  |  0  | | avg 1 hour per epoch | RAM usage fluctuates instead of constant increasing over epochs |
-|  `starts_sepsis_large`  |   `> 36.8 GB`   |  0  | | | |
+|  `starts_sepsis_small`  | reached `35 GB` at epoch 15 and increasing  |  0  | | avg 1 hour per epoch | RAM usage fluctuates instead of constant increasing over epochs |
+|  `starts_sepsis_large`  | reached `36.8 GB` at epoch 0 |  0  | | | __expected to increase__ with more epochs |
 |  `starts_sepsis_small` with text  |      |    | | | |
 |  `starts_sepsis_large`  with text |      |    | | | |
 | | | | | | |
