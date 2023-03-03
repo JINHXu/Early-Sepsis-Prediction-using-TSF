@@ -65,7 +65,7 @@ __RAM usage peak often reached during `loading data into matrices for forecastin
 | ------------- |:-------------:| -----:| --- | --- | --|
 | __Exp 0 (dry run)__: reproduce strats for mortality prediction | reached __32.8 GB__ RAM usage when loading data and increasing | 0 | ~ | avg approx. 1 hour per epoch | `loading data into matrices for forecasting` |
 | __Exp 1 (dry run)__ strats mortality with our old ids | $>35GB$ | 0 | ~ | - | session crashed when loading data into matrices for forecasting (RAM limit was 35 GB)|
-|  `starts_sepsis_small`  | reached `35 GB` at epoch 15 and increasing  |  0  | ~ | avg approx. 1 hour per epoch | ![Screenshot 2023-02-28 at 20 04 02](https://user-images.githubusercontent.com/36717127/221953751-55d6fa23-c81c-4822-aa21-8f71ebbab76c.png) RAM usage increases over time, but not constant |
+|  `starts_sepsis_small`  | reached `35 GB` at epoch 15 and increasing  |  0  | ~ | avg approx. 1 hour per epoch `24h` for forecasting, `24h` for target task| ![Screenshot 2023-02-28 at 20 04 02](https://user-images.githubusercontent.com/36717127/221953751-55d6fa23-c81c-4822-aa21-8f71ebbab76c.png) RAM usage increases over time, but not constant |
 |  `starts_sepsis_large`  | reached `36.8 GB` at epoch 0 |  0  | ~ | avg approx. 1 hour per epoch | ![Screenshot 2023-02-28 at 20 07 34](https://user-images.githubusercontent.com/36717127/221954554-5163900d-e032-4b34-866c-bea396173620.png) __expected to increase__ with more epochs |
 |  `starts_sepsis_small` with text  |      |    | | | |
 |  `starts_sepsis_large`  with text |      |    | | | |
