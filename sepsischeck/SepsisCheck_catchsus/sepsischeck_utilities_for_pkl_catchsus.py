@@ -1,11 +1,13 @@
 import pandas as pd
 import numpy as np
-import SepsisCheck as sc
+import SepsisCheck_catchsus as sc
+from tqdm import *
 
 
 def get_features_for_sepsischeck():
     """get list of features necessary for sepsis check, as well as place holder features used in the check"""
     sepsisfeatures = [
+        
         "text",
         "Mechanically ventilated",
         "mech",
@@ -62,7 +64,7 @@ def prepare_strats_for_sepsis(dataframe, features):
                 df_new.at[i, "anti"] = "True"
             if "Mechanically ventilated" in str(values["variable"]):
                 df_new.at[i, "mech"] = "True"
-            if "text" in str(values["variable"]):
+            if "Text" in str(values["variable"]):
                 df_new.at[i, "text"] = values["value"]
 
             for k in range(0, len(values)):
@@ -76,11 +78,12 @@ def prepare_strats_for_sepsis(dataframe, features):
 
         except Exception as e:
             print(e)
+    df_temp = pd.DataFrame(df_new["text"])
+    df_new.drop(["text",],axis=1,inplace=True)
+    df_new = df_new.replace("ERROR", np.nan)  # some values are reported as 'ERROR' which makes conversion to float impossible
+    d = df_new.join(df_temp)
 
-    df_new = df_new.replace(
-        "ERROR", np.nan
-    )  # some values are reported as 'ERROR' which makes conversion to float impossible
-    return df_new
+    return d
 
 
 def fill_data(dataframe, ffill_antibiotics):
@@ -176,7 +179,7 @@ def prepare_for_sofa(dataframe):
                 if str(value) == "nan":
                     pass
                 else:
-                    dataframe["Catecholamines"][i] = sc.Catecholamine(c, float(value))
+                    dataframe.at[i, "Catecholamines"] = sc.Catecholamine(c, float(value)) #dataframe["Catecholamines"][i]
                     # print("found Catecholamine and wrote:","sc.Catecholamine({}, {})".format(c, int(value)))
             except Exception as e:
                 # print("Did not find 'Dopamine', 'Dobutamine', 'Epinephrine', 'Norepinephrine'.", e)
@@ -198,7 +201,7 @@ def get_sofa(dataframe):
     for i in dataframe.index:
 
         try:
-            if dataframe["mech"][i] == "True":
+            if dataframe["mech"][i] == True:
                 mech = True
             else:
                 mech = False
@@ -230,10 +233,13 @@ def get_sofa(dataframe):
             dataframe["FiO2"][i],
             mech,
         )
-        dataframe["Sofa"][i] = sc.compute(cond)
+        
+        dataframe.at[i, "Sofa"] = sc.compute(cond) #dataframe["Sofa"][i]
+        
 
 
-def get_sepsis(dataframe):
+
+def get_sepsis(dataframe, mode, sus_window, sep_window):
     """initiate the Sepsis class with processed patient data"""
 
     sep = sc.Sepsis(
@@ -241,12 +247,13 @@ def get_sepsis(dataframe):
         dataframe["anti"],
         dataframe["blood_culture"],
         dataframe.index,
+        
     )
 
-    return sc.sepsis_check(sep)
+    return sc.sepsis_check(sep, mode, sus_window, sep_window)
 
 
-def run_Sepsis(patient_data, subject_ID, hadm_ID, ts_ind, features, ffill):
+def run_Sepsis(patient_data, subject_ID, hadm_ID, ts_ind, features, ffill, mode, sus_window, sep_window):
     """run sepsis check return the result"""
     df = prepare_strats_for_sepsis(patient_data, features)
     # df.to_csv('./data_outputs/test/{}-{}_raw.tsv'.format(subject_ID,hadm_ID), sep='\t')
@@ -257,13 +264,14 @@ def run_Sepsis(patient_data, subject_ID, hadm_ID, ts_ind, features, ffill):
     # df.to_csv('./data_outputs/test/{}-{}_b4_sofa.tsv'.format(subject_ID,hadm_ID), sep='\t')
     get_sofa(df)
     # df.to_csv('./data_outputs/test/{}-{}_before_sepsis_check.tsv'.format(subject_ID,hadm_ID), sep='\t')
-    sepsis, t_sofa, t_cultures, t_IV, t_sus = get_sepsis(df)
+    sepsis_label, t_sepsis, t_sofa, t_cultures, t_IV, t_sus = get_sepsis(df, mode, sus_window, sep_window)
     s = dict(
         {
             "Subject ID": subject_ID,
             "Hadm_ID": hadm_ID,
             "ts_ind": ts_ind,
-            "Sepsis": sepsis,
+            "Sepsis": sepsis_label,
+            "t_sepsis": t_sepsis,
             "t_sofa": t_sofa,
             "t_cultures": t_cultures,
             "t_IV": t_IV,
@@ -285,7 +293,7 @@ def filter_data(data, str_column, value):
     return t
 
 
-def run_sepsis_check_on_pkl(path, output, ffill):
+def run_sepsis_check_on_pkl(path, output, ffill, mode, sus_window, sep_window):
     """loop the sepsis check over all ts_indexes and write results to file"""
     data = pd.read_pickle(path)
     print(
@@ -299,19 +307,23 @@ def run_sepsis_check_on_pkl(path, output, ffill):
     IDs = get_unique_admissions(data)
     results = []
 
-    for ts_ind in IDs:
-        print(ts_ind)
-        mask = data[0]["ts_ind"] == ts_ind
+    for ts_ind in tqdm(IDs, leave=True):
+        """mask = data[0]["ts_ind"] == ts_ind
         mask2 = data[1]["ts_ind"] == ts_ind
 
         df = data[0][mask]
         subject_ID = int(data[1][mask2]["SUBJECT_ID"])
-        hadm_ID = int(data[1][mask2]["HADM_ID"])
-        result = run_Sepsis(df, subject_ID, hadm_ID, ts_ind, feats, ffill)
-        #results.append(run_Sepsis(df, subject_ID, hadm_ID, ts_ind, feats, ffill))
-        with open (output, 'a') as file:
-            file.write(result+"\n")
-    #file = open(output, "w")
-    #for result in results:
-        #file.write(result + "\n")
-    #file.close()
+        hadm_ID = int(data[1][mask2]["HADM_ID"])"""
+
+        df = data[0].loc[data[0]["ts_ind"] == ts_ind]
+        subject_ID = int(data[1]["SUBJECT_ID"].loc[data[1]["ts_ind"] == ts_ind])
+        hadm_ID = int(data[1]["HADM_ID"].loc[data[1]["ts_ind"] == ts_ind])
+
+        #result = run_Sepsis(df, subject_ID, hadm_ID, ts_ind, feats, ffill)
+        results.append(run_Sepsis(df, subject_ID, hadm_ID, ts_ind, feats, ffill, mode, sus_window, sep_window))
+        #with open (output, 'a') as file:
+            #file.write(result+"\n")
+    file = open(output, "w")
+    for result in results:
+        file.write(result + "\n")
+    file.close()
