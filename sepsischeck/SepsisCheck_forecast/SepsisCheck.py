@@ -159,13 +159,13 @@ def compute_score_for_kidneys(creatinine_level: float, urine_output: float) -> i
             return 4
         if urine_output < 500:
             return 3
-    if creatinine_level >= 5.0: #mg/dl
+    if creatinine_level >= 5.0:  # mg/dl
         return 4
-    if creatinine_level >= 3.5: #mg/dl
+    if creatinine_level >= 3.5:  # mg/dl
         return 3
-    if creatinine_level >= 2.0: #mg/dl
+    if creatinine_level >= 2.0:  # mg/dl
         return 2
-    if creatinine_level >= 1.2: #mg/dl
+    if creatinine_level >= 1.2:  # mg/dl
         return 1
     return 0
 
@@ -230,15 +230,13 @@ hourly cultures taken boolean in cultures_taken: list,
 
 
 class Sepsis(NamedTuple):
-
     sofa: list  # list of sofa scores
     IV_administered: list  # list of boolean whether IV_was administered or not
     cultures_taken: list  # list of boolean whether cultures were taken or not
     time_index: list  # the index (time)
 
 
-def sepsis_check(
-    param: Sepsis, mode, sus_window, sep_window) -> int:
+def sepsis_check(param: Sepsis, mode, sus_window, sep_window) -> int:
     t = param.time_index
     t_sofa = get_t_sofa(sofa=param.sofa)  # returns row number
     t_IV = iv_check(mod=mode, IV=param.IV_administered)  # returns row number
@@ -280,10 +278,10 @@ def iv_check(mod, IV) -> int:
     if mod == "sepsis-3":
         for t, bool in enumerate(IV):
             if bool == True:
-                return  t 
-    
+                return t
+
         return False
-    
+
     # reyna et. al. condition of 72 consecutive hours of IV administration
     if mod == "reyna":
         consec = 0
@@ -296,9 +294,7 @@ def iv_check(mod, IV) -> int:
                 if consec > max:
                     max = consec
                     if max == 72:
-                        return (
-                            t - 71
-                        )  
+                        return t - 71
         return False
 
 
@@ -344,7 +340,7 @@ def is_septic(sofa, sus, sep_win) -> bool:
         return False, False
     if sofa is False:
         return False, False
-    #if sofa first and sep_window[0] hours no sus, or sus first and sep_window[1] hours no sofa -> False
+    # if sofa first and sep_window[0] hours no sus, or sus first and sep_window[1] hours no sofa -> False
     if sus - sofa > sep_win[0] or sofa - sus > sep_win[1]:
         return False, False
     else:

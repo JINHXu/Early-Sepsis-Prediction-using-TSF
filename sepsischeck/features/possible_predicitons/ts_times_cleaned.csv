@@ -1,0 +1,667 @@
+,ts_ind,SUBJECT_ID,HADM_ID,CHARTDATE,CHARTTIME,TEXT,Admission Date ,Unnamed: 7,diffs
+0,7.0,279.0,192224.0,2164-06-17,2164-06-17 17:01:00,"MICU nursing progress note 7A-7P
+Pt with new dx adeno Ca biliary tree with liver failure, cirrrhosis, ARF, sepsis.",[**2164-6-14**]  ,,89.01666666666667
+1,7.0,279.0,192224.0,2164-06-19,,Hypotension was most likely secondary to sepsis.,[**2164-6-14**]  ,,120.0
+2,,,,,,,,,-1000.0
+3,487.0,931.0,141560.0,2174-11-04,2174-11-04 20:10:00,"""RESPIRATORY CARE: PT W/ 8.0 ORAL ETT IN PLACE. REMAINS ON
+CMV MODE NOW W/ RR 34/420/1.0/15 PEEP. ABG C/W A METABOLIC
+ACIDOSIS AND VERY POOR OXYGENATION. PT IN SEVERE CARDIOGENIC
+AND SEPTIC SHOCK PT GRAVELY ILL [**Name8 (MD) **] MD/TEAM.
+
+ [**Hospital 4**] MEDICAL CONDITION:
+    87 year old man with 3 vessel disease recently intubated for desaturation, pt
+   now hypotensive and septic.
+ REASON FOR THIS EXAMINATION:
+  eval for edema, infiltrate, ARDS",[**2174-11-1**] ,,92.16666666666667
+4,487.0,931.0,141560.0,2174-11-04,2174-11-04 06:17:00,a:?mixed component of cardio/septic shock. presenlt pressor-dopa & iabp dependent. overall condition very poor.,[**2174-11-1**] ,,78.28333333333333
+5,487.0,931.0,141560.0,2174-11-04,2174-11-04 17:39:00,"A- S/P stents to LM & LAD/Cx in cardiogenic shock/septic shock who continues acidotic 
+& now hypoxic requiring aggressive Rx to maintain AB",[**2174-11-1**] ,,89.65
+6,487.0,931.0,141560.0,2174-11-05,,"The
+patient developed ARF with a Cr rise from 1.1 - > 1.9 as well as
+a lactate of 5.4   This was all deemed to be from hyperperfusion
+from cardiogenic shock with a possible component of septic shock
+due to an abdominal source.  A conversation was then held with
+the patient's son regarding possible heroic PCI of the LCMA
+lesion in order to improve the patient's hemodynamics.  Though
+this procedure was high risk it was explained to the son that
+this was his father's options were limited.  The son wished to
+pursue with the intervention.",[**2174-11-1**] ,,96.0
+7,,,,,,,,,-1000.0
+8,573.0,1332.0,,,,more than 1 hadm_id -> skip for clarity,,,-1000.0
+9,,,,,,,,,-1000.0
+10,678.0,405.0,134001.0,2116-02-11,2116-02-11 05:53:00,"ID- ZOSYN FOR ABX PROPHYLAXIS. TMAX 38.5. TYLENOL 650MG GIVEN. TEMP 37.9 NOW. CONTINUE TO MONITOR FEVER CURVE.
+A- ALT IN THERMOREGULATION R/T SEPSIS",[**2116-1-8**],,821.8833333333333
+11,678.0,405.0,134001.0,2116-02-12,2116-02-12 06:22:00,"ID- TMAX 100.0. ZOSYN FOR ABX PROPHYLAXIS. TYLENOL 650MG GIVEN.
+A- ALT IN THERMOREGULATION R/T SEPSIS; FLD EFFUSIONS, ? CELLULITIS, ? C-DIFF.",[**2116-1-8**],,846.3666666666667
+12,678.0,405.0,134001.0,2116-02-26,,"Over the ensuing weeks, the patient had continued
+complications from his ruptured aortic aneurysm repair.  He
+went into renal failure, necessitating hemodialysis.  He had
+continued ventilatory requirements and ultimately developed
+fevers. He was treated for ventilator associated pneumonia,
+as well as intermittent bouts of line sepsis.  He ultimately
+got better from these issues. ",[**2116-1-8**],,1176.0
+13,,,,,,,,,-1000.0
+14,712.0,441.0,188256.0,2123-05-27,2123-05-27 05:04:00,PLAN: CONT TO MONITOR FOR SEPSIS. AWAIT CX RESULTS. START INSULIN GTT WHEN AVAILABLE AND TITRATE TO FSBG. CONT TO MONITOR FREQUENT LABS. CONT PER CURRENT MGMT. EMOTIOANL SUPPORT TO FAMILY.,[**2123-5-16**],,269.06666666666666
+15,,,,,,,,,-1000.0
+16,831.0,587.0,150352.0,2100-12-01,,"The patient's UO
+remained 50-100 cc/hour. Due to concern for methotrexate
+toxicity (completed on [**11-6**]) and MTX level 0.36 on [**11-8**],
+especially in light of sepsis and potential third spacing of
+MTX, IV leucovrin was increased and hemodialysis was started.
+His methotrexate level decreased appropriately, and no further
+hemodialysis was required.", [**2100-10-26**] ,,864.0
+17,831.0,587.0,150352.0,2100-12-01,,"The etiology of the hyperbilirubinemia
+was unknown, and with negative US and CT scan it was felt to be
+secondary to septic gallbladder (although peaked several days
+after the episode of hypotension occurred) vs methotrexate
+effect.", [**2100-10-26**] ,,864.0
+18,,,,,,,,,-1000.0
+19,850.0,668.0,166245.0,2183-07-06,2183-07-06 17:04:00,"Pt is s/p PEA arrest on [**7-1**], urosepsis. She is a DNR/DNI in ARF. The family has decided not to persue dialysis.",[**2183-7-1**],,137.06666666666666
+20,850.0,668.0,166245.0,2183-07-01,2183-07-01 17:46:00,Received ceftriaxone for urosepsis.,[**2183-7-1**],,17.766666666666666
+21,850.0,668.0,166245.0,2183-07-01,2183-07-01 15:54:00," [**Hospital 4**] MEDICAL CONDITION:
+  86 year old woman with sepsis, s/p PEA arrest, severe coagulopathy, fixed
+  dilated pupils",[**2183-7-1**],,15.9
+22,850.0,668.0,166245.0,2183-07-07,,"after PEA arrest complicated by bowel resection.  The patient
+was noted to have urosepsis. ",[**2183-7-1**],,144.0
+23,850.0,668.0,166245.0,2183-07-07,,"HOSPITAL COURSE:  Patient is status post PEA arrest and
+urosepsis with septic shock noted, aggressive fluid
+resuscitation with appropriate blood pressure maintenance.
+Patient continued on IV antibiotic therapy in lieu of
+aggressive therapy.  The patient developed acute on chronic
+renal failure.
+Of note, the patient returned following day with
+coffee-ground emesis with change to comfort care measures and
+expired on [**2183-7-10**] as a result:
+1. Urosepsis.
+2. Acute renal failure.
+3. Status post PEA arrest.
+4. Bowel resection.
+5. Coffee-ground emesis.",[**2183-7-1**],,144.0
+24,,,,,,,,,-1000.0
+25,917.0,745.0,,2200-05-14,2200-05-14 08:29:00," [**Hospital 3**] MEDICAL CONDITION:
+  57 year old man with recent sepsis, gallium scan with positive hilar, no for
+  evaluation of [**Last Name (un) 59713**];hadenopathy.
+ REASON FOR THIS EXAMINATION:",[**2202-3-22**] ,,-16239.516666666666
+26,917.0,745.0,162004.0,2202-03-23,2202-03-23 14:27:00,A--SEPSIS WITH INCREASING AGITATION REQUIRING HALDOL.,[**2202-3-22**] ,,38.45
+27,917.0,745.0,162004.0,2202-04-01,2202-04-01 14:24:00,"                                 FINAL REPORT
+ INDICATION:  Sepsis.  Place post pyloric feeding tube.",[**2202-3-22**] ,,254.4
+28,917.0,745.0,162004.0,2202-05-03,,DISCHARGE DIAGNOSES:  Sepsis.,[**2202-3-22**] ,,1008.0
+29,917.0,745.0,,2202-07-12,2202-07-12 12:30:00," Reason: RIGHT HIP SEPTIC ARTHRITIS
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+  60 year old man with RIGHT HIP SEPTIC ARTHRITIS
+ REASON FOR THIS EXAMINATION:
+  RIGHT HIP SEPTIC ARTHRITIS
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ PELVIS SINGLE AP FILM
+
+ HISTORY:  Septic arthritis right hip.",[**2202-3-22**] ,,2700.5
+30,,,,,,,,,-1000.0
+31,1190.0,1000.0,143040.0,2144-02-11,2144-02-11 17:18:00,"CV: HR 80's NSR, no ectopy noted; up to low 100's while on PS. BP's 90's/40's cont's to be on Dopamine 5mcg/kg/min (Beta range). Plan is to keep pt on Dopamine at 5mcg d/t ?'able low SVR secondary to Sepsis and pt's inablility to generate the appropriate cardiac output (plesae see Dr.[**Name (NI) 3887**] note [**2-10**]). Pt cont's to have generalized edema/anasarca, weaping from old IV sites, radial pulses palpable, dorsal pulses ausculated w/ doppler. Both feet are mottled and toes are purple/black in color. [**Name8 (MD) **] MD no need to put Silvadine ointment on toes. *Plan, keep Dopamine at current dose.",[**2144-1-19**],,569.3
+32,1190.0,1000.0,143040.0,2144-02-12,2144-02-12 14:11:00,"Briefly, pt is a 69 yr old male with PMH NIDDM, HTn, CRF (now HD dependent), CHF who was transferred from OSH on [**1-20**] for further w/u of UGIB. PT found to have ulcer at GE junction and nodular gastric mucosa (2nd finding c/w MM). Hospital course c/b respiratory arrest, prolonged ventilation, LLL pneumonia (VAP), B/L reaccumulating pleural effusions requiring CT's (L unsuccessfully pleurodesed), sepsis (pt with MRSA in sputum and yeast, stool +cdiff, and urine + yeast) requiring triple pressors and resulting in mottling/necrosing of fingers/toes.  At present, pt continues to be pressor dependent, and due to ambivilance of family r/e continuing aggressive care, HD is on hold. plan is for family meeting tomorrow with family/team/Dr. [**Last Name (STitle) 3888**] to address plan of care.
+
+    A/P: PT cont septic, pressor dependent, with cont high volume output via ct's. worsenting metabolic acidosis, on bicarb gtt. await family meeting to reevaluate pt's situation and to form plan of care. cont to support family as doing.
+",[**2144-1-19**],,590.1833333333333
+33,1190.0,1000.0,143040.0,2144-02-13,,"8. Endocrine:  Patient has a history of diabetes mellitus.
+He has been maintained on an insulin drip during his MICU
+stay.  In addition, patient has been started on stress dosed
+steroids for treatment of adrenal insufficiency in the
+setting of sepsis.
+
+Due to concern for adrenal insufficiency, random cortisol
+levels were checked and the patient's cortisol level was
+found to be 15.  He was started on a course of stress dosed
+steroids.  Furthermore, patient was noted to be febrile and
+there was concern for a distributive shock.  Patient has
+continued to demonstrate septic physiology during his
+hospital stay.",[**2144-1-19**],,600.0
+34,1190.0,1000.0,143040.0,2144-02-14,2144-02-14 05:34:00,"MICU B RN NOTE---SEPSIS, RENAL FAILURE
+STABLE NOC. SEE CAREVUE FOR DETAILS",[**2144-1-19**],,629.5666666666667
+35,1190.0,1000.0,143040.0,2144-02-25,,"4. Vascular:  While the patient initially presented with
+resolution of a cellulitis, his toes became gangrenous.  In
+addition, the patient had septic emboli in his fingertips.
+
+DISCHARGE DIAGNOSES:
+1. Enterococcal sepsis.
+2. Anemia due to blood loss.
+3. Multiple myeloma.
+4. Type 2 diabetes complicated by end-stage renal disease.
+5. Hypertension.",[**2144-1-19**],,888.0
+36,,,,,,,,,-1000.0
+37,1264.0,1079.0,167362.0,2156-11-26,2156-11-26 18:17:00,"""Day Note MICU B= Pt.adm to MICUB at 1130 from ER. Responding only to deep painful stimuli when arrived. Immediately placed on Bipap for hypercarbia, intubated shortly thereafter. Lungs stiff, hard to ventilate, see care vue, for slow resolution of resp. acidosis. Lung fields slightly more decreased on left . Chest xray ,r. lateral decubitis film done, reviewed by team. Ativan, Fentanyl for above. Hypotension, fluid boluses,Dopamine to 15 ucg. Note pt. was in er since [**2153**] last evening, due to business of er, temp 90.1 on adm, felt to be overwhelming sepsis due to pneumonia. Note pt has a hx. of mental retardation since falling off a table at age 3. Sz hx since. Frequent sz's w/ last one being 7 wks ago. Presently dilantin toxic(26). Will repeat level in am. Pt had sz at about 0400, tonic, clonic for2 minutes, 2nd sz. at 0830, more facial twitches.  Head ct done, lumbar puncture done. A-line insertion took 5 hrs, and numerous attempts, unknown hx, edematous, and poor vascular flow. Neuro in to see, noted flicking of eyes (mildly)- felt ? status epilep, EEG being done. Gent, Flagyl, Vanco, and Leveflox given in ER. Recieved 6l fld in ER, 450 urine. Con't to have low u/o. TLC left groin, s/p attempt to place a-line l. fem, bled  2 hrs after pressure held, more pressure,dsd. SR-SB to as low as 50, ???, ECG done, but mispla, ced by medical team, will not be redone at this time.",[**2156-11-26**],,18.283333333333335
+38,1264.0,1079.0,167362.0,2156-11-27,2156-11-27 12:06:00,"Vasopressin added to therapy for BP support and goal is to wean levo
+first with a target mean of 60.  NGT patent and meds administered as ordered.  No BM but + bowel sounds.  Abd distended but does not grimace upon palpatation.   IVAB as ordered and no cultured source for sepsis:  assumption-lung process.
+
+A-Sepsis/ARDS/Pressors/IV lasix/fluid overload",[**2156-11-26**],,36.1
+39,1264.0,1079.0,167362.0,2156-12-10,2156-12-10 17:13:00,"ID:  No source for sepsis identified.  Febrile to 103.8R.  
+Tylenol/cooling blanket/ice packs added to therapy.",[**2156-11-26**],,353.21666666666664
+40,1264.0,1079.0,167362.0,2156-12-21,2156-12-21 05:59:00,2) ???SEPSIS SO PREVALENT THAT THE RECENT LACK OF ABX IS YIELDING GREATER VASODILITATION--->PROFOUND HYPOTENSION.,[**2156-11-26**],,605.9833333333333
+41,1264.0,1079.0,167362.0,2156-12-21,2156-12-21 16:34:00,"MICU-B, NPN:
+Plan at start of shift was to contact mother.  Spoke w/ intern prior to making phone call- intern stated that she was expecting mother to arrive here this a.m. and wanted to wait until that time to speak w/ her.  Team rounded on pt., called mother @ that time (10:00) as she had not arrived here.  Mother's wishes were to move to comfort measures.  Attng. asked that no changes be made until pt. eval'd. by him.  15:00, attng. spoke w/ mother and decision made to pursue further workup of uterine mass as possible source of sepsis before pursuing comfort measures only.",[**2156-11-26**],,616.5666666666667
+42,1264.0,1079.0,167362.0,2156-12-22,2156-12-22 05:09:00,"MICU-B NPN 1900-0700
+Pt. remains very hemodynamically unstable.  Yest. conversations transpired between mom and Dr. [**Last Name (STitle) 4089**] per plan of care.  Mom wants to pursue w/u on uterine mass.  Per ID sepsis may be in relation to mass viewed on U/S.  Pt. DNR, but we are continuing to support her with mechanical ventilation and pressors for uterine w/u today. Pt. maxed out on vent. support and vasopressor support.  Mom aware that pt. may pass away tonight, if she does not, w/u is to ensue this am.",[**2156-11-26**],,629.15
+43,1264.0,1079.0,167362.0,2156-11-26,2156-11-26 18:17:00,"""Day Note MICU B= Pt.adm to MICUB at 1130 from ER. Responding only to deep painful stimuli when arrived. Immediately placed on Bipap for hypercarbia, intubated shortly thereafter. Lungs stiff, hard to ventilate, see care vue, for slow resolution of resp. acidosis. Lung fields slightly more decreased on left . Chest xray ,r. lateral decubitis film done, reviewed by team. Ativan, Fentanyl for above. Hypotension, fluid boluses,Dopamine to 15 ucg. Note pt. was in er since [**2153**] last evening, due to business of er, temp 90.1 on adm, felt to be overwhelming sepsis due to pneumonia. Note pt has a hx. of mental retardation since falling off a table at age 3. Sz hx since. Frequent sz's w/ last one being 7 wks ago. Presently dilantin toxic(26). Will repeat level in am. Pt had sz at about 0400, tonic, clonic for2 minutes, 2nd sz. at 0830, more facial twitches.  Head ct done, lumbar puncture done. A-line insertion took 5 hrs, and numerous attempts, unknown hx, edematous, and poor vascular flow. Neuro in to see, noted flicking of eyes (mildly)- felt ? status epilep, EEG being done. Gent, Flagyl, Vanco, and Leveflox given in ER. Recieved 6l fld in ER, 450 urine. Con't to have low u/o. TLC left groin, s/p attempt to place a-line l. fem, bled  2 hrs after pressure held, more pressure,dsd. SR-SB to as low as 50, ???, ECG done, but mispla, ced by medical team, will not be redone at this time.",[**2156-11-26**],,18.283333333333335
+44,1264.0,1079.0,167362.0,2156-11-27,2156-11-27 12:06:00,"source for sepsis:  assumption-lung process.
+A-Sepsis/ARDS/Pressors/IV lasix/fluid overload",[**2156-11-26**],,36.1
+45,1264.0,1079.0,167362.0,2156-12-04,2156-12-04 18:17:00,"Heme/micro:  Hct this a.m. 27, platelets 76- goal is to keep above 50.  K+ 4.2, no IV repletion this a.m.  Re-checking CBC @ 18:00.  Poss. BM bx next week. +MRSA to sinus drainage-  covered w/ Vanco- trough 15.9, awaiting peak.  Clinda/Levo for asp. pnx.  T-max this shift 100.9.  Was re-cx'd today for ? re-presentation of sepsis.  Will send Acetone @ 19:00.  Erythromycin for ileus.  FSBG QID.",[**2156-11-26**],,210.28333333333333
+46,1264.0,1079.0,167362.0,2156-12-10,2156-12-10 15:34:00,ID:  No source for sepsis identified.  Febrile to 103.8R.  Tylenol/cooling blanket/ice packs added to therapy.,[**2156-11-26**],,351.56666666666666
+47,1264.0,1079.0,167362.0,2156-12-21,2156-12-21 05:59:00,2) ???SEPSIS SO PREVALENT THAT THE RECENT LACK OF ABX IS YIELDING GREATER VASODILITATION--->PROFOUND HYPOTENSION.,[**2156-11-26**],,605.9833333333333
+48,1264.0,1079.0,167362.0,2156-12-21,2156-12-21 16:34:00,"MICU-B, NPN:
+Plan at start of shift was to contact mother.  Spoke w/ intern prior to making phone call- intern stated that she was expecting mother to arrive here this a.m. and wanted to wait until that time to speak w/ her.  Team rounded on pt., called mother @ that time (10:00) as she had not arrived here.  Mother's wishes were to move to comfort measures.  Attng. asked that no changes be made until pt. eval'd. by him.  15:00, attng. spoke w/ mother and decision made to pursue further workup of uterine mass as possible source of sepsis before pursuing comfort measures only.",[**2156-11-26**],,616.5666666666667
+49,1264.0,1079.0,167362.0,2156-12-22,2156-12-22 05:09:00,"""MICU-B NPN 1900-0700
+Pt. remains very hemodynamically unstable.  Yest. conversations transpired between mom and Dr. [**Last Name (STitle) 4089**] per plan of care.  Mom wants to pursue w/u on uterine mass.  Per ID sepsis may be in relation to mass viewed on U/S.  Pt. DNR, but we are continuing to support her with mechanical ventilation and pressors for uterine w/u today. Pt. maxed out on vent. support and vasopressor support.  Mom aware that pt. may pass away tonight, if she does not, w/u is to ensue this am.",[**2156-11-26**],,629.15
+50,,,,,,,,,-1000.0
+51,1576.0,,,,,more than 1 hadm_id -- > skip for clarity,,,-1000.0
+52,,,,,,,,,-1000.0
+53,1606.0,1982.0,,,,more than 1 hadm_id -- > skip for clarity,,,-1000.0
+54,,,,,,,,,-1000.0
+55,1654.0,2029.0,,,,more than 1 hadm_id -- > skip for clarity,,,-1000.0
+56,,,,,,,,,-1000.0
+57,2234.0,2777.0,,,,no mention of sepsis,,,-1000.0
+58,,,,,,,,,-1000.0
+59,2251.0,2791.0,117309.0,2125-03-15,,"Brief Hospital Course:
+1) DKA:
+Pt was started on insulin gtt and admitted to [**Hospital Unit Name 153**].  The
+underlying etiology was her UTI and sepsis.  With treatment of
+this and insulin gtt, her gap slowly closed.  She was
+transitioned to SC insulin once the gap was closed.  After this,
+her BG remained occassionally high over 200, so her lantus dose
+was increased to 10U daily.  With this, BG was improved, though
+further titration may be required as outpt for optimal control.
+.
+2) SEPSIS secondary to UTI:
+Pt has a very large leukocytosis on admission which resolved
+over the course of her stay.  Both the urine and blood cultures
+grew pansensitive E.coli.  The patient was maintained on IV
+ceftriaxone for about 6days.  Her blood cultures cleared right
+away and repeat urine was also clear.  Given rapid resolution,
+she was switched to PO cipro to complete a total 14d course of
+abx.
+
+Discharge Diagnosis:
+diabetic ketoacidosis
+sepsis secondary to UTI",[**2125-3-10**] ,,120.0
+60,,,,,,,,,-1000.0
+61,2467.0,2539.0,,,,more than 1 hadm_id -- > skip for clarity,,,-1000.0
+62,,,,,,,,,-1000.0
+63,2748.0,3683.0,,,,more than 1 hadm_id -- > skip for clarity,,,-1000.0
+64,,,,,,,,,-1000.0
+65,2757.0,3694.0,,,,more than 1 hadm_id -- > skip for clarity,,,-1000.0
+66,,,,,,,,,-1000.0
+67,2778.0,3716.0,122999.0,2169-12-24,2169-12-24 16:24:00,a-unknown source of hypoxia but responding nicely to CPAP.? sepsis picture,[**2169-12-23**],**,40.4
+68,,,,,,,,,-1000.0
+69,2863.0,3392.0,,,,more than 1 hadm_id -- > skip for clarity,,,-1000.0
+70,,,,,,,,,-1000.0
+71,3197.0,3201.0,137892.0,2112-03-24,,"DISCHARGE DIAGNOSES:
+1.  Septic shock from community acquired pneumonia.",[**2112-3-21**] ,,72.0
+72,,,,,,,,,-1000.0
+73,3339.0,4074.0,137421.0,2204-02-04,2204-02-04 17:46:00,"Brief Update to Admit Note 1800:
+Pt continued to have stable Hct/coags throughout the day but UO dropped to 10cc/hr and pt continued to look mottled in his extremities and BP boarderline at 90/50 most of the day with HR 100-120's a-fib. Pt given 1000cc's NS in two divided boluses for low UO without much effect. Pt denied pain. BP suddenly dropped to 60's at 5PM. Fluids started wide open. Team called in to se pt and two blood cultures sent and pt ordered for antibiotics to begin. Thought to be ?septic. Lactate 4.0. Team attempting a-line and will plan central line this evening if things continue to deteriorate.
+He had sputum and urine cultures sent in EW and I sent stool for c-diff earlier in the day.",[**2204-2-4**]  ,,17.766666666666666
+74,3339.0,4074.0,137421.0,2204-02-05,2204-02-05 06:35:00," [**Hospital 2**] MEDICAL CONDITION:
+     82 year old man with sepsis, s/p RIJ central line
+ REASON FOR THIS EXAMINATION:
+  eval line placement
+ ______________________",[**2204-2-4**]  ,,30.583333333333332
+75,3339.0,4074.0,137421.0,2204-02-05,2204-02-05 10:16:00," [**Hospital 2**] MEDICAL CONDITION:
+      82 year old man with sepsis, s/p RIJ central line h/o c.diff
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ AP CHEST 10:24 A.M. ON [**2-5**]
+
+ HISTORY:  Sepsis.  Right IJ line placement.",[**2204-2-4**]  ,,34.266666666666666
+76,3339.0,4074.0,137421.0,2204-02-06,,"Brief Hospital Course:
+This is an 82 yo man who was recently discharged with c diff
+colitis who presented with poor PO intake, BRBPR, and altered
+mental status. He became hypotensive and tachycardic during his
+admission day and had worsening mental status. The etiology of
+his condition was unclear, in the ddx was urosepsis,",[**2204-2-4**]  ,,48.0
+77,,,,,,,,,-1000.0
+78,3628.0,3847.0,148864.0,2169-01-20,2169-01-20 16:07:00,"PT [**Month (only) 108**] BE SEPTIC,[**Month (only) 108**] NEED CT",[**2169-1-8**],,304.1166666666667
+79,3628.0,3847.0,148864.0,2169-01-21,2169-01-21 04:49:00,"CV/GU/ID: REMAINS IN NSR WITH HR 63-73. STEADY DECLINE IN BP ON EVES WITH SBP DOWN TO 90 AND MAP'S 54-58. ON INITIAL ROUNDS U/O POOR. DR [**Last Name (STitle) **] [**Last Name (STitle) 946**] OF DECREASING BP AND INADEQUATE U/O. LABS DRAWN AND PT GIVEN GENTLE LR BOLUS. HAD ONLY RECEIVED 400CC LR. PT C/O DIFFICULTY BREATHING. CVP 18-20. SATS 97%. RR-16. BOLUS STOPPED. MD [**Last Name (Titles) 946**]. NO SIGNIFICANT CHG IN BP AFTER BOLUS. STARTED LEVO AND TITRATED TO 0.065MCG/KG /MIN. SBP NOW 110-130 WITH MAPS' 57-60. U/O CON'T POOR BUN AND CREAT UNCHG 51, 2.1 ADDITIONAL FLUID BOLUS HELD ( HAD SOME FAILURE BY CXR) CRACKLES HEARD IN BASES. PT DOES NOT APPEAR TO BE IN ANY RESP. DISTRESS. ABG 7.28,48,119,24,-4, 98%. ( UNCHG) LACTIC ACID 0.9. DR [**Last Name (STitle) **] [**Last Name (STitle) 266**] OF ABG AND LACTIC ACID. POSSIBLE UROSEPSIS. HAS + E-CHOLI AND KLIEBS. IN URINE. CON'T ON VANCO. STARTED THIS EVE ON MEREPENUM. ORAL TEMP 95, RECHECK RECTAL 97. BAIR HUGGER APPLIED AND TEMP NOW 97.8 PO. PT WILL KICK OFF BLANKET AND REFUSES TO WEAR IT. AWAITING AM WBC. PT HAD PLEURAL EFFUSION TAP ON [**1-19**] WITH + BACTERIA NOTED. CON'T ON CONTACT PRECAUTIONS.",[**2169-1-8**],,316.81666666666666
+80,3628.0,3847.0,148864.0,2169-01-23,2169-01-23 14:59:00,"A: PT NOW STABLE ON O2 VIA NC. MS CLEAR. +PAIN R/T WOUNDS.
+BP STABLE OFF PRESSORS.
+POOR U/O ON GOING.
+P: MONITOR RESP STATUS D/T RECURRENT PLEURAL EFFUSION, QUESTION SOURCE. +MRSA PRECAUTIONS
+FOLLOW TEMP CURVE, WBC, BP FOR S&S OF SEPSIS.
+FOLOW U/O.
+WOUND CARE QD.
+FOLLOW HCT.",[**2169-1-8**],,374.98333333333335
+81,3628.0,3847.0,148864.0,2169-01-24,2169-01-24 17:07:00,"a/p: resp and hemodynamic issues have resolved. treating for uti as poss source of sepsis. cont supportive care. transfer to medicine w vascular, renal following.",[**2169-1-8**],,401.1166666666667
+82,3628.0,3847.0,148864.0,2169-02-03,2169-02-03 18:32:00,"PMH: 76 y/o with diastolic CHF, CAD s/p NSTEMI, DM, PVD, CRI, RAS, who was admitted with hypercalcemia and ARF [**2169-1-8**], course c/b NSTEMI and hypotension likely secondary to urosepsis. *Patient has also had recurring Pleural effusions. UTI Klebsiella on Meropenem, Foley changed [**2-2**].",[**2169-1-8**],,642.5333333333333
+83,3628.0,3847.0,148864.0,2169-02-14,2169-02-14 05:55:00,"THIS IS A 76 Y/O F W/ DIASTOLIC CHF, CAD, S/P NSTEMI, DM, PVD, CRI WHO WAS ADMITTED WITH HYPERCALCEMIA AND ARF, COURSE C/B NSTEMI AND HYPOTENSION LIKELY SECONDARY TO UROSEPSIS- TX TO [**Hospital Unit Name 3626**] RESPIRATORY DISTRESS.",[**2169-1-8**],,893.9166666666666
+84,3628.0,3847.0,148864.0,2169-03-01,,"Discharge Diagnosis:
+Principal:
+1. Diastolic Heart Failure - Bilateral Pleural Effusions.
+2. Acute Renal Failure.
+3. [**Month/Day (2) 7792**] - Demand Ischemia.
+4. ESBL E. Coli and Klebsiella UTI/Septicemia.
+5. Stage IV Sacral Decubitus Ulcer.
+6. Left Lateral Thight Full Thickness Ulcer.
+7. Atrial Fibrillation.
+8. Elevated IgA NOS.
+9. Hypercalcemia NOS.
+10.Delirium.
+11.MRSA Colonization.
+12.Respiratory Failure.",[**2169-1-8**],,1248.0
+85,,,,,,,,,-1000.0
+86,3669.0,3891.0,140833.0,2140-07-05,2140-07-05 18:56:00,"Events of day:
+Mr. [**Known lastname 9361**] is a 30yo male admitted to [**Hospital1 2**] from ED following episode of chest pain at home during noc.  In ED worked up by cardiology, cardiology transferred pt to medicine for diagnosis of sepsis.  PMH significant for malaria 2yrs ago following trip to [**Name (NI) 1658**] (pt did not take prophlaxis).  Arrived in MICU-A at 0745 with Dopamine infusing at 10mcg/kg/min.  Neo added which was quickly titrated to 4mcg/kg/min to support MAP>60.  Dopamine changed to Levophed which is currently at 3.0mcg/kg/min.  Pt BP drops if pressors off even for 60seconds.  Pts resp status deteriorated throughout day; became stridorous, required intubation at 1500.  Currently remains on Neo, Levo, Propofol as well as abx and fluids.",[**2140-7-5**],,18.933333333333334
+87,3669.0,3891.0,140833.0,2140-07-06,2140-07-06 05:53:00,"Events: Increased demand for pressors-on levophed/dobutamine/ vasopressin/and neosynephrine to maintain MAP >60. Swan Ganz inserted over wire from sepsis cath; cardiac echo shows pericarditis- no intervention at this time per cardiology. Hyperkalemic- anuric essentially since admit--CVVH to be initiated, quinton to r femoral placed. Severe acidosis, bicarb gtt and need for several amps bicarb as well.  Hyperkalemic, kayexalate enema w/ some effect. ?shock liver, coags elevated, 6u FFP.
+
+ID: Rising lactate, now 13 from 4 on admit. Low grade temp. Sepsis cath d/c'd with placement of swan; Svo2 had been in 80's but dropping to low 60's. Blood/urine cx pnd. No LP done. Needs nasal/rectal swabs for Star study.
+
+Plan: 6am labs pnd. Anticpate hyperkalemia. CVVH this am in effort to correct lytes and renal status. Pressors as ordered, attempt to wean neo first. Monitor MS. [**First Name (Titles) **] [**Last Name (Titles) **] status. Emotional support to family for critical condition- pericarditis/cardiac tamponade/renal failure/sepsis. IV antibx. Full code. Doplet prec.",[**2140-7-5**],,29.883333333333333
+88,3669.0,3891.0,140833.0,2140-07-06,2140-07-06 09:08:00," [**Hospital 4**] MEDICAL CONDITION:
+  30 year old man with sepsis, intubated, now anuric
+ REASON FOR THIS EXAMINATION:
+  eval for obstr
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ HISTORY:  Sepsis, meningitis, intubated, anuric.",[**2140-7-5**],,33.13333333333333
+89,3669.0,3891.0,140833.0,2140-07-08,2140-07-08 05:24:00,"A: steady improvement continues, though rising WBC and septic-appearing CO/SVR are concerning.",[**2140-7-5**],,77.4
+90,3669.0,3891.0,140833.0,2140-07-14,2140-07-14 17:32:00,"30 yo male with meningococcal sepsis, mod to large posterior pericaridal effusion, slow recovering shock liver, acute renal failure requiring CRRT, continue with hemodynamic instability",[**2140-7-5**],,233.53333333333333
+91,3669.0,3891.0,140833.0,2140-07-20,2140-07-20 17:23:00,"micu npn 0700-1900
+
+30 year old male recovering from meningococcal septic shock, shock liver, DIC, acute renal failure, pericarditis, s/p pericardial window and  stripping [**7-16**]",[**2140-7-5**],,377.3833333333333
+92,3669.0,3891.0,140833.0,2140-07-21,2140-07-21 17:35:00,"ursing Note (0700-1900hrs)
+
+Pt is a 30 yr old male adm [**7-5**] with meningococcal septic shock, shock liver, DIC, ARF, pericarditis with pericardial window and stripping [**7-16**].",[**2140-7-5**],,401.5833333333333
+93,3669.0,3891.0,140833.0,2140-07-30,,"1.)Shock -- Pt went into shock intially requiring [**4-1**] pressors
+shortly after admission - with septic and cardiogenic
+components. [**4-3**] blood culture bottles grew gram negative
+diplococci which were identified as meningococci. He was treated
+with ceftraixone and vancomycin for a total of 10 days. Several
+days after admission he was found to have developed a
+pericardial effusion, and developed atrial flutter. He has been
+stable of pressors since hospital day 6. The flutter has also
+resolved (see below).",[**2140-7-5**],,600.0
+94,,,,,,,,,-1000.0
+95,3761.0,3969.0,147237.0,2152-06-04,2152-06-04 06:27:00," In the ED, VS: 98.4  HR 80-140s  BP initially 197/104 then
+   64-121/30-40s  RR 15  100% RA. Given 3L NS, 4 gm Mg, Insulin gtt
+   started. AG 19-->13. ECG showing RBBB, LAFB, LVH with strain and sinus
+   tachy to 140s which improved to 120s with IVF. CXR showing large left
+   sided lung mass now 50% larger than prior, unable to r/out infectin,
+   rec CT when stable. ECG showing likely sinus tachy improving with IVF.
+   Also 4 grams of Mg sulfate, ASA, insulin gtt started at 7 U/hr. Also
+   with SBP in 80-90 range, no obvious source of infection, not treated
+   for sepsis. Currently receiving fluids, very volume down on exam. Hct
+   down to 23 with IVF, guaiac trace positive in ED.", [**2152-6-4**] ,,6.45
+96,3761.0,3969.0,147237.0,2152-06-04,2152-06-04 09:23:00,"Ddx: infection/early sepsis, dehydration, poor PO intake while still
+   receiving lasix and antihypertensives, anemia/bleed, unlikely heart
+   failure as she reports no sxs
+   No antibiotics- not febrile here, leukocytosis improving. Low threshold
+   for starting broad spectrum if spikes or leukocytosis.", [**2152-6-4**] ,,9.383333333333333
+97,3761.0,3969.0,147237.0,2152-06-04,2152-06-04 17:12:00," Pt comfortable with ice packs. CT
+   report No hemorrhage, ? sepsis/ emboli, ? endocarditis. Minimal
+   increase in LLL lung mass / appears to be a necrotic center.", [**2152-6-4**] ,,17.2
+98,3761.0,3969.0,147237.0,2152-06-04,2152-06-04 13:42:00," IMPRESSION:
+ 1.  Interval development of multiple pulmonary nodules.  Given the short
+ interval, infection and/or septic emboli should be considered.
+ 2.  Minimal increase in left lower lobe lung mass with what appears to be a
+ necrotic center.  No evidence of active hemorrhage within this lesion.
+ 3.  Interval increase of multiple mediastinal lymph nodes, which at baseline
+ were pathological and now also increased in size due to likely reactive.", [**2152-6-4**] ,,13.7
+99,3761.0,3969.0,147237.0,2152-06-05,2152-06-05 09:06:00,"Clinician:  Attending
+   Hypotensive overnight, requiring restarting neosynephrine.
+   Tmax 104.8.
+   No new culture data.
+   WBC up.
+   7.38/29/95 on 3L NC.
+   Lactate 2.1->2.6
+   All blood cx NGTD.
+   Septic shock
+   Vanco/zosyn day 2. Add clinda for improved empiric therapy
+   Unclear source- likely lung with multifocal infiltrates in addition to
+   the large, cavitary mass met vs abscess", [**2152-6-4**] ,,33.1
+100,3761.0,3969.0,147237.0,2152-06-07,2152-06-07 10:41:00,"Clinician:  Attending
+   T spike this morning 101. Hypotensive
+   Exam sig for more labored breathing, tachypnic.
+   All blood cx NGTD.
+   Sputum poor samples.
+   Urine grew yeast.
+   Septic shock- had improved but now hypotensive, tachycardic
+   Vanco/zosyn day 4. Clinda d3.
+   Transfuse PRBC.
+
+   Caution with volume infusion with h/o flash pulm edema
+   Thrombocytopenia stable, off heparin, HIT ab pending
+   Big picture: highly aggressive metastatic breast CA with brain, lung,
+   right arm involvement, persistant septic shock, now developing resp
+   distress - Need further discussion regarding treatment options and long
+   term care options, with Dr [**Last Name (STitle) 616**] involved.
+   Patient is critically ill.", [**2152-6-4**] ,,82.68333333333334
+101,3761.0,3969.0,147237.0,2152-06-08,2152-06-08 10:42:00,"Clinician:  Attending
+   T spike yesterday morning 101, not since.
+   Restart high dose steroids hydrocortisone 50 mg q 6 for 5 day course.
+   Hypotensive, continues on levophed. Transfused 1U PRBC. CVP 10-11 this
+   am.
+   Exam sig for tachypnea, labored breathing, seems weaker though still
+   talkative.
+   All blood cx NGTD.
+   Sputum poor samples.
+   Urine grew yeast.
+   Septic shock- had improved but now hypotensive, tachycardic
+   Vanco/zosyn day 5. Clinda d4. Presumed pulm source with likely lung
+   abscess. Send stool for Cdiff toxin. Empirically change clinda to
+   flagyl for CDiff possibility. Can consider adding fungal coverage but
+   markers negative and defervesced yesterday. I am concerned we are
+   dealing with walled off abscess that we may not be able to effectively
+   treat.
+   Big picture: highly aggressive metastatic breast CA with brain, lung,
+   right arm involvement, persistant septic shock, resp distress.
+   PPI, boots, subcut heparin, DNR/DNI
+   Patient is critically ill.", [**2152-6-4**] ,,106.7
+102,3761.0,3969.0,147237.0,2152-06-11,2152-06-11 12:06:00,"Chief Complaint: Sepsis
+   I saw and examined the patient, and was physically present with the
+   for key portions of the services provided.  I agree with his / her note
+   above, including assessment and plan.
+   HPI:
+   65 yo with metastic breast CA, p/w septic shock thought to be from
+   necrotic lung lesion.
+   24 Hour Events:
+   negative CT head for new bleed, but resolution of hemorrhagic foci and
+   mass effect/edema
+   still somewhat confused, but knows she's at [**Hospital3 **]
+   unable to take po meds
+   Allergies:
+   Imdur (Oral) (Isosorbide Mononitrate)
+   Nausea/Vomiting
+   Last dose of Antibiotics:
+   Metronidazole - [**2152-6-11**] 02:30 AM
+   Piperacillin/Tazobactam (Zosyn) - [**2152-6-11**] 08:05 AM
+   Vancomycin - [**2152-6-11**] 09:00 AM", [**2152-6-4**] ,,180.1
+103,,,,,,,,,-1000.0
+104,3806.0,4007.0,,,,no mention sepsis,,,-1000.0
+105,,,,,,,,,-1000.0
+106,3929.0,4685.0,184648.0,2121-02-21,2121-02-21 23:51:00," [**Hospital 3**] MEDICAL CONDITION:
+   49 year old man with severe AS, hypotensive, cardiac arrest, septic",[**2121-2-20**] ,,47.85
+107,3929.0,4685.0,184648.0,2121-02-22,2121-02-22 12:37:00," [**Hospital 2**] MEDICAL CONDITION:
+    49 year old man with severe AS, hypotensive, cardiac arrest, septic
+
+ REASON FOR THIS EXAMINATION:
+  lines
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ HISTORY: 49 y/o man with severe aortic stenosis, hypotensive, cardiac arrest
+ and septic, please check lines.",[**2121-2-20**] ,,60.61666666666667
+108,3929.0,4685.0,184648.0,2121-03-01,2121-03-01 04:36:00,"A/P: 49 YR OLD ESRD,SEVERE AS. S/P VALVOPLASTY X2. EF 30%. S/P CARDIOGENIC AND SEPTIC SHOCK. REQUIERING PRESSORS POST VALVOPLASTY. NOW ON CVVHDF, INTUBATED. NOW WEANING [**Name (NI) 2201**] WITH HOPE TO PUT ON PSV. AM VANCO/GENTA LABS SENT. CON'T CVVHD AS [**Name (NI) 103**] BY PT. SLOW LEVO WEAN. AS PER NSG JUDGEMENT",[**2121-2-20**] ,,220.6
+109,3929.0,4685.0,184648.0,2121-03-09,2121-03-09 04:18:00,"A: Hemodynamically stable, on pressor, s/p MRI of head indicated possible
+ septic emboli per CCU team report. Antibxs increased.",[**2121-2-20**] ,,412.3
+110,3929.0,4685.0,184648.0,2121-03-14,2121-03-14 05:03:00,"ID- FEBRILE- 101.9- WAITED FOR NEW NG TUBE TO GIVE TYLENOL.
+CURRENTLY AFEBRILE. PLAN FOR MRI ?TODAY TO W/U SEPTIC EMBOLI, AS WELL AS US TO ASSESS SWELLING OF RUE.
+PT PAN CULTURED 7P- REMAINS ON SAME ANTIBX.
+SENT RT FEM ALINE TIP FOR CULTURE AS WELL.",[**2121-2-20**] ,,533.05
+111,3929.0,4685.0,184648.0,2121-03-12,2121-03-12 05:51:00,"
+A/[**Name (NI) **] PT S/P LONG COURSE OF RENAL RX, RESP FX, SEPTIC SHOCK- CURRENTLY AWAITING TRACH PLACEMENT TODAY
+DOING WELL ON CURRENT VENT SETTINGS.",[**2121-2-20**] ,,485.85
+112,3929.0,4685.0,184648.0,2121-03-12,2121-03-12 12:03:00," [**Hospital 3**] MEDICAL CONDITION:
+  49 year old man with ESRD on HD, severe AS, h/o MRSA osteo with persistent
+  fevers and MRI with ?septic emboli vs. vasculitis vs. fungal infection.
+ REASON FOR THIS EXAMINATION:
+  evaluate for signs of fungal infection
+ No contraindications for IV contrast
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ HISTORY:  End-stage renal disease on hemodialysis with severe aortic stenosis
+ and MRSA osteomyelitis and persistent fevers and MRI with ? septic emboli
+ versus vasculitis versus fungal.",[**2121-2-20**] ,,492.05
+113,3929.0,4685.0,184648.0,2121-03-28,,"prolonged PEA arrest where he was coded for over 45 minutes.
+Concern with patient's altered mental status after this was
+that he had some type of anoxic brain injury.  Also concern
+for septic emboli in light of patient's endocarditis.
+Patient was seen and followed by the Neurology Service and
+patient had an MRI on [**3-8**], which showed multiple
+hemorrhagic foci with mild surrounding edema and enhancement
+predominantly located in the cortical and subcortical
+regions, both cerebral hemispheres and cerebellum.
+Eventually, patient had a normal MRA of the head and
+eventually patient had follow-up MR of the head on [**2121-3-15**] which showed slight decrease in edema and enhancement
+surrounding the hemorrhagic foci in the supra and
+infratentorial region compared to the previous stay and no
+new lesions were identified and no shift or hydrocephalus
+were noted.",[**2121-2-20**] ,,864.0
+114,,,,,,,,,-1000.0
+115,3980.0,4748.0,159335.0,2196-09-05,2196-09-05 17:32:00," [**Hospital 2**] MEDICAL CONDITION:
+  64 year old woman with ESRD s/p renal txp, intubated [**2-3**] sepsis [**2-3**] PNA
+ REASON FOR THIS EXAMINATION:
+  please assess for obstruction vs. ileus",[**2196-9-1**]  ,,113.53333333333333
+116,3980.0,4748.0,159335.0,2196-09-22,,"Attending:[**First Name3 (LF) 2485**]
+Chief Complaint:
+PNA sepsis",[**2196-9-1**]  ,,504.0
+117,3980.0,4748.0,159335.0,2196-09-13,2196-09-13 05:23:00,"a. ESRD s/p renal transplant, DM, b/l pna sepsis, HTN
+p. monitor abg o2 sat [**Last Name (un) **] pulm toliet, antibx as ordered follow cxr
+monitor u/o follow cr obtain tacrolimus level 1/2 hr before 0600 dose
+monitor bp ntg bp > 160 hold [**Last Name (un) **] bradycardia cont hydralazine and nifedpine as ordered, monitor Bld sugar ss insulin gtt if needed",[**2196-9-1**]  ,,293.3833333333333
+118,,,,,,,,,-1000.0
+119,4168.0,4169.0,102557.0,2195-12-25,2195-12-25 17:33:00," [**Hospital 2**] MEDICAL CONDITION:
+     67M c intubated for sepsis, MI
+ REASON FOR THIS EXAMINATION:
+    ? CHF, tube plct
+                                 FINAL REPORT
+ CHEST SINGLE AP FILM.
+
+ History of sepsis and intubation.
+
+ The endotracheal is 7 cm above the carina.  The Swan Ganz catheter is in the
+ right main pulmonary artery.  G tube is in the stomach.  No pneumothorax.
+ There is cardiomegaly.  There is some upper zone redistribution and
+ interstitial edema consistent with CHF which has improved since the prior
+ study of [**2195-12-24**].  There are ill-defined opacities in both lower zones which
+ could be due to atelectaseis, residual edema or evolving pulmonary
+ consolidation. (linear atelectases also present) No pneumothorax.",[**2195-12-24**],,41.55
+120,4168.0,4169.0,102557.0,2195-12-25,2195-12-25 23:27:00," [**Hospital 2**] MEDICAL CONDITION:
+      67M c intubated for sepsis, MI, now desaturation
+ History of sepsis with desaturation and Swan Ganz catheter placement.",[**2195-12-24**],,47.45
+121,4168.0,4169.0,102557.0,2195-12-27,2195-12-27 15:31:00, HISTORY: Sepsis and line placement.,[**2195-12-24**],,87.51666666666667
+122,4168.0,4169.0,102557.0,2195-12-28,2195-12-28 15:11:00,"                                 FINAL REPORT
+ INDICATION:  Sepsis, MI, Swan-Ganz catheter removed and line replaced.",[**2195-12-24**],,111.18333333333334
+123,4168.0,4169.0,102557.0,2195-12-29,2195-12-29 15:59:00," [**Hospital 2**] MEDICAL CONDITION:
+  67 year old man admitted with E.coli sepsis, with acute on chronic renal
+  failure. R/O hydronephrosis. R/O abcess.
+                                 FINAL REPORT
+ INDICATION:  A 67-year-old with sepsis, renal failure.  Assess for
+ hydronephrosis or abscess.",[**2195-12-24**],,135.98333333333332
+124,4168.0,4169.0,102557.0,2196-01-02,,"History of Present Illness:
+67 yo male, h/o 3vd, [**Month/Day/Year **] s/p ablation in [**4-27**] at [**Hospital1 2025**], RA,
+diastolic dysfunction, who presented from [**Hospital 1263**] hospital with
+?biliary sepsis.  Pt reports that on day of admission, he woke
+up with malaise, nausea, vomiting, fevers, and rigors.  He went
+to [**Doctor Last Name 1263**] ED, found to be febrile with abnormal LFT's, was
+started on antibiotics  (clinda/ceftaz) and IVF, and was
+transferred to [**Hospital1 18**] for presumed biliary sepsis and further
+management.
+With respect to his sepsis, he required 3 pressors as above, was
+on vanco/zosyn/lev/flagyl.  Blood cultures from [**Doctor Last Name 1263**] grew out
+[**4-26**] E. coli (with E. coli also in urine) resistant to
+amp/pip/sulbactam.  Ciprofloxacin was added to regimen on [**12-26**].
+He is currently just on cipro and is to complete a 14 day course
+for E. coli.  He continued to improve clinically, was extubated
+on [**12-29**], and he was transferred to the floor on [**12-30**] (stable,
+mentating).  Other MICU events include a drop in platelets
+following 48 hours of heparin therapy (HIT negative, Hep d/c'ed,
+and platelets recovering).  He had a bump in his creatinine to
+3.0 (baseline 1.3-1.5 as per PCP) which is resolving (?ATN [**2-23**]
+hypotension but no muddy brown casts on sediment).  Renal US was
+obtained that did not show hydronephrosis or cause or ARF.  Hct
+has been stable, but he has been guaiac positive on exam.  Pt
+was stable on transfer to the floor.
+3. Given sepsis of unclear source and the fact that a small
+stone could not be ruled out, a  9 cm by 10 fr Cotton-[**Doctor Last Name **]
+biliary stent was placed successfully in the CBD.",[**2195-12-24**],,216.0
+125,4168.0,4169.0,102557.0,2196-01-02,,"Brief Hospital Course:
+A/P: 67 yo male, h/o severe 3vd, RA, presenting from OSH with
+?biliary sepsis, s/p ERCP with stent placed, being treated for
+urosepsis vs biliary sepsis, extubated and doing well.
+
+1. Sepsis: The patient's initial picture was consistent with
+septic + cardiogenic shock. Initial SG numbers revealed high
+SVR, low CO, and high PCWP. He remained hypotensive despite IVF,
+and pressors were continued, with eventual triple pressor
+therapy (Levo, Dopamine and Vasopressin) required for
+hemodynamic support. A random cortisol was 20, and 29
+post-cosyntropin. Despite appropriate response, the low random
+cortisol prompted initiation of steroid therapy, initially
+Dexamethasone, then hydrocortisone and Fludrocortisone with plan
+to complete 7 days of Rx (completed). His lactate, elevated on
+admission, came down. He was successfully weaned off Levo and
+Vasopressin on [**2195-12-28**], then off Dopamine on [**2195-12-29**]. ERCP did
+not show obstruction, ?biliary sludge.  He was initially on
+vanco/zosyn/flagyl-->cipro/vanco/flagyl.  Vanco/flagyl were
+discontinued on [**12-27**] (c. diff neg x 3), and he will continue a
+course of cipro for ?urosepsis.  All cultures here have been
+NGTD, but he is being treated for [**4-26**] E. coli blood culture
+bottles at [**Doctor Last Name 1263**].  Ciprofloxacin was continued for the 14 day
+course (until [**1-9**]).  He was hemodynamically stable throughout
+hospitalization.  Blood pressure medications were initially held
+[**2-23**] hypotension.  Lisinopril was restarted prior to discharge
+after renal function improved.  Atenolol was held given patient
+was still on amiodarone taper.  This should be restarted after
+he follows up with his PCP/cardiologist.",[**2195-12-24**],,216.0
+126,,,,,,,,,-1000.0
+127,4633.0,4902.0,144444.0,2184-07-25,2184-07-25 19:17:00,"plan: ? pt septic?, moniotor increasing wbc, continue to wean neo gtt, keep map > 60, continue with q 1 hr FS, and q 8 hour lab draws, begin rehab screening process, ? intermittent dialysis to begin, lidocaine for bronchospaspm, ativan/haldol/dilaudid for anxiety and pain.",[**2184-6-30**] ,,619.2833333333333
+128,4633.0,4902.0,144444.0,2184-07-26,2184-07-26 09:03:00," [**Hospital 3**] MEDICAL CONDITION:
+                   50 year old man with ARF and sepsis, s/p perf diverticulitis
+  and         sigmoid         colectomy on vent with acue desat. need tlc eval
+ REASON FOR THIS EXAMINATION:
+  eval for increasing a-a gradient
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ HISTORY:  50-year-old with acute respiratory failure and sepsis.",[**2184-6-30**] ,,633.05
+129,4633.0,4902.0,144444.0,2184-08-01,2184-08-01 04:18:00,"condition updated
+S/P MULTIPLE BOWEL SURGERIES W/OPEN [** **]
+FOR DETAIL INFO PLEASE REFER TO ACTIVE FLOW SHEET
+STILL PRESENTS W/SEPTIC PICTURE. TEMP, LOW BP AND TACHYCARDIA.  REQUIRED 2-250 NS BOLUSES AND RESTART OF NEO GTT UP TO 1MCG. ATTEMPTED TO D'C AFTER FLUID CHALLENGES BUT BP DRIFTED DOWN SO RESTARTED AND WEANED SLOWLY THROUGH NIGHT. NOW @.25MCG. HR 99-100
+TYLENOL GIVEN FOR TEMP X2
+INSULIN TITRATED TO KEEP BS 100-140",[**2184-6-30**] ,,772.3
+130,4633.0,4902.0,144444.0,2184-08-15,2184-08-15 03:45:00,"condition updated
+S/P RENAL TX W/FAILURE COMPLICATED WITH BOWEL PERFORATION AND SEPSIS FOR SPECIFIC DETAILS REFER TO FLOWSHEET
+MORE TACHYCARDIC EPISODES WITH RATE INCREASE TO 133 MAX; EXTRA LOPRESSOR REQUIRED AND GIVEN W/O BP COMPROMISE
+SEEMS LESS AGITATED BUT DID MED X2 FOR GENERALIZED DISCOMFORT FROM COUGHING. SEDATIVES DID NOT SEEM TO HELP REDUCE HR. DISCUSSED WITH  RESIDENT ABOUT SCHEDULED DOSE OF LOPRESSOR. WILL DISCUSS ON ROUNDS IN MEANTIME AN EXTRA DOSE OF 5MG IV GIVEN.",[**2184-6-30**] ,,1107.75
+131,4633.0,4902.0,144444.0,2184-08-23,,"Chief Complaint:
+Abdominal wound dehiscence, necrotic stoma and intra-abdominal
+sepsis, s/p ex lap for perforated diverticulitis at other
+facility,
+transfer for further care.
+History of Present Illness:
+Mr. [**Known lastname **] is a 51 year old gentleman who had a kidney transplant
+many years ago. He was admitted to an outside hospital with
+intra-abdominal sepsis
+and was taken to the operating room for a sigmoid resection and
+colostomy. One week after that procedure, the patient was
+continuing not to do well. We were contact[**Name (NI) **] by his physician to
+transfer him to [**Hospital1 18**] for maximal care.
+On arrival, he was found to be hypotensive and febrile, with an
+hematocrit of 20 and a platelet count of 33. He was medically
+maximized during the first initial hour and prepared for the
+operating room, to repair what was obviously a fascial
+dehiscence and a necrotic stoma and possible intra-abdominal
+sepsis. After a long discussion with the brother about the
+critical nature of his care, his brother (his health care proxy)
+consented to an operation.
+
+Discharge Diagnosis:
+Sepsis
+Multiorgan failure",[**2184-6-30**] ,,1296.0
+132,,,,,,,,,-1000.0
+133,4765.0,5049.0,,,,more than 1 hadm_id --> skip for clarity,,,-1000.0
+134,,,,,,,,,-1000.0
+135,4891.0,5264.0,141603.0,2145-07-12,2145-07-12 05:04:00,"A: r/i mi
+   pnx with ? sepsis
+   ^ blood sugar on insulin gtt
+   able to wean dopa to off
+P: cont to follow cx
+   cont to follow blood sugars
+   will need stool cx
+   ? ability to wean
+    reorient often",[**2145-7-10**],,53.06666666666667
+136,4891.0,5264.0,141603.0,2145-08-06,,"#PNA/? sepsis: the patient was treated for presumed aspiration
+pneumonia initially with Levofloxacin and flagyl.  These were
+discontinued and vancomycin and Zosyn were started.  A total of
+9 days of Vanco & Zosyn were given.  Despite anti-biotic
+therapy, he continued to spike fevers and have an elevated white
+count.  His hemodynamic measurements also showed evidence of
+sepsis.  ID was consulted and the patient underwent a thorough
+work-up for a source of infection.  Pan-cultures were negative.
+Chest CT was suggestive of PNA, for which therapy was continued.
+ The pt's left sided pleural effusion was tapped.  The results
+were negative.  Subsequent bronchoscopy was performed and no
+evidence of pneumonia or other pathologies were found.
+Abdominal CT failed to reveal any evidence of abscess or
+infection.  Thus, after a near complete course of antibiotic
+therapy for PNA, antibiotics were discontinued, since no other
+localizing source could be found.  The patient's fever
+subsequently abated.",[**2145-7-10**],,648.0
+137,4891.0,5264.0,141603.0,2145-07-11,2145-07-11 15:23:00,"Plan:  + for Inferior wall MI and started on heparin/integrilin gtts.  Given 1 x doses of ASA, plavix.
+--Cont. to treat Aspiration PNA and being worked up for possible ARDS
+--? sepsis and source
+--Will need cardiac cath in near future
+--Transfer to CCU when bed becomes available.
+--Monitor per protocol
+--Wean dopa. as tolerated.
+--PTT due at 1800",[**2145-7-10**],,39.38333333333333
+138,,,,,,,,,-1000.0
+139,5152.0,7363.0,,,,more than 1 hadm_id --> skip for clarity,,,-1000.0
+140,,,,,,,,,-1000.0
+141,5403.0,5937.0,,,,more than 1 hadm_id --> skip for clarity,,,-1000.0
+142,,,,,,,,,-1000.0
+143,5417.0,5955.0,117177.0,2129-02-02,2129-02-02 05:07:00,"A: unstable VT, requiring IV Amiodarone, probable sepsi
+s in setting of Strep Viridans Endocarditis , with vegetation on mitral valve, requiring multiple pressors and antibxs.",[**2129-1-19**],**,341.1166666666667
+144,5417.0,5955.0,117177.0,2129-02-04,2129-02-04 05:08:00,"A: Pt. admitted w/ c/o abdominal pain and found to have strep viridans w/ 
+endocarditis in prosthetic MV.  Hospitalization c/b bradycardia w/ 4 second pauses - to EP lab for permanent PCM placement during which pt. w/ hypoxia and hypotension. Intubated requiring pressors - dependent on Neo at present.  Atrial lead placed [**2-3**] in addition to ventricular lead placed in lab [**2-2**] to increase CO/perfusion.  Probable sepsis w/ decreased UOP requiring IVF boluses - worsening renal function. Infected tooth extracted [**2-2**] - bleeding noted in oral cavity originally perceived to be result of",[**2129-1-19**],,389.1333333333333
+145,5417.0,5955.0,117177.0,2129-02-04,2129-02-04 18:02:00,"A/P: 55yo women w/ IE of porcine MV and native [**Hospital 2250**] hosp course c/b bradycardia requiring a/v PCM, VT currently controled on 1mg/min amio, and shock (?septic v. cardiogenic) requiring ventilatory and hemodynamic support; awaiting [**Hospital1 **]-valve replacement sx (scheduled for mon [**2-7**]).",[**2129-1-19**],,402.03333333333336
+146,5417.0,5955.0,117177.0,2129-02-06,2129-02-06 17:18:00,"A: septic shock r/t s.viridans endocarditis, mechanically vent'd and requiring pressor support, awaiting MVR/AVR.
+P: cont Vasopressin cont. 0.04u/min infusion and titrate Neo to maintain MAP>65. Cont vent support, monitor ABG and metabolic acidosis. Cont to hold TF and monitor gastric residual. F/u pm labs. Cont abx as ordered, f/u pending cultures. Monitor u/o and renal fxn, fluid balance. ? appropriateness of CT [**Doctor First Name 4**] for valve replacements in setting of worsening renal failure. Cont to support pt and family.",[**2129-1-19**],,449.3
+147,5417.0,5955.0,117177.0,2129-02-07,2129-02-07 18:44:00,"CCU NSG NOTE: ALT IN CV/SEPSIS
+O: ID: T-max 100.4R. Pt conts on triple ABX. Lactate 2.1 today.",[**2129-1-19**],,474.73333333333335
+148,5417.0,5955.0,117177.0,2129-02-16,,"2. CHF:  Pt became volume overloaded in light of fluid
+resuscitation during sepsis.  Her volume was managed in the ICU
+by CVVH [**3-9**] renal failure.",[**2129-1-19**],,672.0
+149,,,,,,,,,-1000.0
+150,5498.0,5665.0,,,,more than 1 hadm_id --> skip for clarity,,,-1000.0
+151,,,,,,,,,-1000.0
+152,5651.0,7533.0,,,,more than 1 hadm_id --> skip for clarity,,,-1000.0
+153,,,,,,,,,-1000.0
+154,,8339.0,107515.0,2122-01-21,2122-01-21 11:24:00,"REASON FOR THIS EXAMINATION:
+  Please do CT Abd/Pelvis with contrast to evaluate pancreas, abdomen/pelvis for
+  source of sepsis
+ No contraindications for IV contrast
+ ______________________________________________________________________________
+                                 FINAL REPORT
+ INDICATION:  History of ARDS and pneumonia, now with hypotension and low urine
+ output.  Please evaluate for pancreas, abdomen/pelvis for source of sepsis.",[**2122-1-14**],,179.4
+155,5672.0,8339.0,107515.0,2122-01-21,2122-01-21 15:11:00," Admitting Diagnosis: ADULT RESPIRATORY DISTRESS SYNDROME
+ ______________________________________________________________________________
+ [**Hospital 2**] MEDICAL CONDITION:
+         64 year old woman with sepsis, Pna.
+ REASON FOR THIS EXAMINATION:
+  please check placement of L IJ line.",[**2122-1-14**],,183.18333333333334
+156,5672.0,8339.0,107515.0,2122-02-06,,"Attending:[**First Name3 (LF) 11040**]
+Chief Complaint:
+ARDS seconrday to septic shock
+
+# Septic shock: Lactate on admission 2.3, hypotension, elevated
+WBC with 2 bands, tachypnea and tachycardia. Initially with
+pressor requirement. Initial broad spectrum Abx were
+discontinued once source of sepsis was found to be due to
+mycoplasma and a course of 14 days of Levofloxacin was
+completed. The patient also was treated with stress dose
+steroids initially, which were subsequently weaned to baseline
+Prednisone dose for chronic RA of 20mg.",[**2122-1-14**],,552.0
+157,5672.0,8339.0,107515.1,2122-02-07,,"Brief Hospital Course:
+# Hypoxic Respiratory Failure - Secondary to mycoplasma PNA for
+which she completed 14 day course of levofloxacin, evolved to
+ARDS from sepsis. Subsequently complicated by likely ventilator
+associated pneumonia, culture and bronchial lavage negative,
+empirically treated with a course of Vancomycin and Cefepime.",[**2122-1-14**],,576.0
+158,,,,,,,,,-1000.0
+159,5704.0,9013.0,,,,more than 1 hadm_id --> skip for clarity,,,-1000.0
+160,,,,,,,,,-1000.0
+161,5942.0,7440.0,111528.0,2168-02-13,2168-02-13 06:09:00," [**Hospital 3**] MEDICAL CONDITION:
+        74 year old man sent from HD with MS change and elevated temps.  Pt now
+  w/ sepsis",[**2168-2-9**],,102.15
+162,,,,,,,,,-1000.0
+163,5970.0,7476.0,,,,more than 1 hadm_id --> skip for clarity,,,-1000.0
+164,,,,,,,,,-1000.0
+165,5975.0,7481.0,,,,no mention of sepsis,,,-1000.0

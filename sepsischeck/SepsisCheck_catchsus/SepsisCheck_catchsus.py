@@ -159,13 +159,13 @@ def compute_score_for_kidneys(creatinine_level: float, urine_output: float) -> i
             return 4
         if urine_output < 500:
             return 3
-    if creatinine_level >= 5.0: #mg/dl
+    if creatinine_level >= 5.0:  # mg/dl
         return 4
-    if creatinine_level >= 3.5: #mg/dl
+    if creatinine_level >= 3.5:  # mg/dl
         return 3
-    if creatinine_level >= 2.0: #mg/dl
+    if creatinine_level >= 2.0:  # mg/dl
         return 2
-    if creatinine_level >= 1.2: #mg/dl
+    if creatinine_level >= 1.2:  # mg/dl
         return 1
     return 0
 
@@ -231,39 +231,41 @@ hourly cultures taken boolean in cultures_taken: list,
 
 from typing import NamedTuple, Optional
 import itertools
-class Sepsis(NamedTuple):
 
+
+class Sepsis(NamedTuple):
     sofa: list  # list of sofa scores
     IV_administered: list  # list of boolean whether IV_was administered or not
     cultures_taken: list  # list of boolean whether cultures were taken or not
     time_index: list  # the index (time)
-    
 
 
-def sepsis_check(
-    param: Sepsis, mode, sus_window, sep_window) -> int:
+def sepsis_check(param: Sepsis, mode, sus_window, sep_window) -> int:
     t = param.time_index
     t_sofa = get_t_sofa(sofa=param.sofa)  # returns row number
     t_IV = iv_check(mod=mode, IV=param.IV_administered)  # returns row number
     t_cultures = blood_check(cultures=param.cultures_taken)  # returns row number
-    
+
     # t_IV is a list of all possible IV administrations
     if not t_IV == False:
         t_IV = [t[i] for i in t_IV]  # get the hour corresponding to row number
 
     # t_cultures is a list of all possible blood cultures
     if not t_cultures == False:
-        t_cultures = [t[i] for i in t_cultures]  # get the hour corresponding to row number
+        t_cultures = [
+            t[i] for i in t_cultures
+        ]  # get the hour corresponding to row number
 
-    t_sus = get_t_sus(sus_win=sus_window, IV=t_IV, cultures=t_cultures, t_0=t[0])  # returns hour
-    
+    t_sus = get_t_sus(
+        sus_win=sus_window, IV=t_IV, cultures=t_cultures, t_0=t[0]
+    )  # returns hour
+
     if not t_sofa is False:
         t_sofa = [t[i] for i in t_sofa]  # get the hour corresponding to row number
-    
-    sepsis_label, t_sepsis = is_septic(t_sofa, t_sus, sep_win=sep_window, t_0=t[0])
-    
-    return sepsis_label, t_sepsis, t_sofa, t_cultures, t_IV, t_sus
 
+    sepsis_label, t_sepsis = is_septic(t_sofa, t_sus, sep_win=sep_window, t_0=t[0])
+
+    return sepsis_label, t_sepsis, t_sofa, t_cultures, t_IV, t_sus
 
 
 def get_t_sofa(sofa) -> int:
@@ -271,7 +273,7 @@ def get_t_sofa(sofa) -> int:
     time of Sofa
     """
     t_ = []
-   
+
     for t, score in enumerate(sofa):
         t = int(t)
         if t < 24:
@@ -287,18 +289,16 @@ def get_t_sofa(sofa) -> int:
 
 def iv_check(mod, IV) -> int:
     """
-    time of IV
+    times of IV to get suspicion
     """
     if mod == "sepsis-3":
         t_ = [x for x, bool in enumerate(IV) if bool == True]
-        """for t, bool in enumerate(IV):
-            if bool == True:
-                return  t""" 
+        
         if len(t_) > 0:
             return list(set(t_))
         return False
-    
-    if mod == "reyna":
+
+    """if mod == "reyna":
         consec = 0
         max = 0
         for t, bool in enumerate(IV):
@@ -309,15 +309,13 @@ def iv_check(mod, IV) -> int:
                 if consec > max:
                     max = consec
                     if max == 72:
-                        return (
-                            t - 71
-                        )  
-        return False
+                        return t - 71
+        return False"""
 
 
 def blood_check(cultures) -> int:
     """
-    first time of bloodcultures taken
+    list of all blood cultures taken to find a suspicion
     """
     t_ = [x for x, bool in enumerate(cultures) if bool == "True"]
     if len(t_) > 0:
@@ -334,19 +332,22 @@ def blood_check(cultures) -> int:
 
 def get_t_sus(sus_win, IV, cultures, t_0) -> float:
     """
-    time of suspicion, needs exception for when IV and cultures are too far apart -> No sepsis x24 x72
+    time of suspicion, uses lists of cultures and IV to get a suspicion "at all costs"
     """
     if IV is False:
         return False
     elif cultures is False:
         return False
-    
+
     # only makes possible combinations -> greatly reduce the amount of combinations
-    l = [x for x in itertools.product(IV, cultures) if (x[0] - x[1]) <= sus_win[1] or (x[1] - x[0]) <= sus_win[0]]
+    l = [
+        x
+        for x in itertools.product(IV, cultures)
+        if (x[0] - x[1]) <= sus_win[1] or (x[1] - x[0]) <= sus_win[0]
+    ]
     t_ = []
 
-    for x in l: 
-
+    for x in l:
         # if cultures and IV happen at the same time
         if x[0] == x[1]:
             t_.append(x[0])
@@ -374,13 +375,22 @@ def is_septic(sofa, sus, sep_win, t_0) -> bool:
         return False, False
     if sofa is False:
         return False, False
-    l = [x for x in itertools.product(sofa, sus) if (x[0] - x[1]) <= sep_win[1] or (x[1] - x[0]) <= sep_win[0]]
-    #if sofa first and sep_window[0] hours no sus, or sus first and sep_window[1] hours no sofa -> False
+    l = [
+        x
+        for x in itertools.product(sofa, sus)
+        if (x[0] - x[1]) <= sep_win[1] or (x[1] - x[0]) <= sep_win[0]
+    ]
+    # if sofa first and sep_window[0] hours no sus, or sus first and sep_window[1] hours no sofa -> False
     for x in l:
-        if ((x[1] - x[0]) > t_0) and ((x[1] - x[0]) <= sep_win[0]) or ((x[0] - x[1]) > t_0) and ((x[0] - x[1]) <= sep_win[1]):
+        if (
+            ((x[1] - x[0]) > t_0)
+            and ((x[1] - x[0]) <= sep_win[0])
+            or ((x[0] - x[1]) > t_0)
+            and ((x[0] - x[1]) <= sep_win[1])
+        ):
             t_.append(min(x[0], x[1]))
     if len(t_) > 0:
         print("septic", t_)
         return True, list(set(t_))
     else:
-            return False, False
+        return False, False

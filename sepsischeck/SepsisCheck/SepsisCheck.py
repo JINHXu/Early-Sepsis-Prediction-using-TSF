@@ -152,20 +152,20 @@ def compute_score_for_coagulation(platelets_count: int) -> int:
 
 def compute_score_for_kidneys(creatinine_level: float, urine_output: float) -> int:
     """
-    Computes score based on Creatinine level (unit is μmol/L) and urine output (unit is mL/d).
+    Computes score based on Creatinine level (unit is μmol/L) added urine output feature(unit is mL/d).
     """
     if urine_output:
         if urine_output < 200:
             return 4
         if urine_output < 500:
             return 3
-    if creatinine_level >= 5.0: #mg/dl
+    if creatinine_level >= 5.0:  # mg/dl
         return 4
-    if creatinine_level >= 3.5: #mg/dl
+    if creatinine_level >= 3.5:  # mg/dl
         return 3
-    if creatinine_level >= 2.0: #mg/dl
+    if creatinine_level >= 2.0:  # mg/dl
         return 2
-    if creatinine_level >= 1.2: #mg/dl
+    if creatinine_level >= 1.2:  # mg/dl
         return 1
     return 0
 
@@ -220,7 +220,7 @@ def compute_score_for_respiratory_system(
 
 
 """
-Compute SepsisLabel for 1 Patient
+Compute Sepsis label for 1 Patient
 
 Prerequisite:  
 hourly Sofa in sofa: list, 
@@ -230,15 +230,13 @@ hourly cultures taken boolean in cultures_taken: list,
 
 
 class Sepsis(NamedTuple):
-
     sofa: list  # list of sofa scores
     IV_administered: list  # list of boolean whether IV_was administered or not
     cultures_taken: list  # list of boolean whether cultures were taken or not
     time_index: list  # the index (time)
 
 
-def sepsis_check(
-    param: Sepsis, mode, sus_window, sep_window) -> int:
+def sepsis_check(param: Sepsis, mode, sus_window, sep_window) -> int:
     t = param.time_index
     t_sofa = get_t_sofa(sofa=param.sofa)  # returns row number
     t_IV = iv_check(mod=mode, IV=param.IV_administered)  # returns row number
@@ -276,14 +274,16 @@ def get_t_sofa(sofa) -> int:
 def iv_check(mod, IV) -> int:
     """
     time of IV
+    sepsis-3 only cares for the first administered IV
+    reyna wants 72 consecutive hours of IV after which the first administration is considered time of IV
     """
     if mod == "sepsis-3":
         for t, bool in enumerate(IV):
             if bool == True:
-                return  t 
-    
+                return t
+
         return False
-    
+
     # reyna et. al. condition of 72 consecutive hours of IV administration
     if mod == "reyna":
         consec = 0
@@ -296,9 +296,7 @@ def iv_check(mod, IV) -> int:
                 if consec > max:
                     max = consec
                     if max == 72:
-                        return (
-                            t - 71
-                        )  
+                        return t - 71
         return False
 
 
@@ -317,7 +315,7 @@ def blood_check(cultures) -> int:
 
 def get_t_sus(sus_win, IV, cultures) -> float:
     """
-    time of suspicion, needs exception for when IV and cultures are too far apart -> No sepsis x24 x72
+    time of suspicion, checks if time of IV and cultures are within the timeframe specified in sus_win
     """
     if IV is False:
         return False
@@ -338,13 +336,14 @@ def get_t_sus(sus_win, IV, cultures) -> float:
 
 def is_septic(sofa, sus, sep_win) -> bool:
     """
-    as long as t_sofa occured no more than x48 hours before or x24 hours after t_suspicion
+    checks if patient is septic; if time of suspicion and sofa are within the timeframe specified in sep_win
+    if condition is met, the earlier time is time of sepsis
     """
     if sus is False:
         return False, False
     if sofa is False:
         return False, False
-    #if sofa first and sep_window[0] hours no sus, or sus first and sep_window[1] hours no sofa -> False
+    # if sofa first and sep_window[0] hours no sus, or sus first and sep_window[1] hours no sofa -> False
     if sus - sofa > sep_win[0] or sofa - sus > sep_win[1]:
         return False, False
     else:

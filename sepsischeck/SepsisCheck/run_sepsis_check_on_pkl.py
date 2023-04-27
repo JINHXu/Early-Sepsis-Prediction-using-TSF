@@ -5,11 +5,6 @@ strategy = "standard"
 if strategy == "standard":
     from SepsisCheck import sepsischeck_utilities_for_pkl as su
 
-if strategy == "grouped":
-    from SepsisCheck_grouped import sepsischeck_utilities_for_pkl_grouped as su
-
-if strategy == "catchsus":
-    from SepsisCheck_catchsus import sepsischeck_utilities_for_pkl_catchsus as su
 
 
 #######################################
@@ -18,7 +13,7 @@ if strategy == "catchsus":
 
 # whether to ffill antibiotics or not
 ffill = True 
-# "sepsis-3" only checks if IV was administered / "reyna" checks if IV is administered atleast 72 hours -> set ffill to true for better chances
+# Mode: "sepsis-3" only checks if IV was administered / "reyna" checks if IV is administered atleast 72 hours -> set ffill to true for better chances
 mode = "reyna" 
 #if sofa first and sep_window[0] hours no sus, or sus first and sep_window[1] hours no sofa -> no sepsis
 sep_window = [24, 12]
