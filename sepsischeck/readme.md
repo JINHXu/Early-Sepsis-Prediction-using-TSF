@@ -6,7 +6,7 @@ Given a preprocessed .pkl patient data file (and forecast predictions for Sepsis
 
 The general hierarchy is the same in all SepsisCheck* folders, however, different strategies within the SepsisCheck code and its utilities were employed and will be explained separately.
 
-E.g., with data paths set up correctly, run any given strategy by navigating to the desired folder and running:
+With data paths set up correctly, run any given strategy by navigating to the desired folder and running the corresponding run*.py, e.g.:
 ```bash
 python run_sepsis_check_on_pkl.py
 ```
