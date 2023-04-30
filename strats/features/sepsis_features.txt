@@ -1,0 +1,133 @@
+ALP
+ALT
+AST
+Albumin
+Albumin 25%
+Albumin 5%
+Amiodarone
+Anion Gap
+Antibiotics
+BUN
+Base Excess
+Basophils
+Bicarbonate
+Bilirubin (Direct)
+Bilirubin (Indirect)
+Bilirubin (Total)
+Blood Culture
+CRR
+Calcium Free
+Calcium Gluconate
+Calcium Total
+Cefazolin
+Chest Tube
+Chloride
+Colloid
+Creatinine Blood
+Creatinine Urine
+D5W
+DBP
+Dextrose Other
+Dopamine
+EBL
+Emesis
+Eoisinophils
+Epinephrine
+Famotidine
+Fentanyl
+FiO2
+Fiber
+Free Water
+Fresh Frozen Plasma
+Furosemide
+GCS_eye
+GCS_motor
+GCS_verbal
+GT Flush
+Gastric
+Gastric Meds
+Glucose (Blood)
+Glucose (Serum)
+Glucose (Whole Blood)
+HR
+Half Normal Saline
+Hct
+Height
+Heparin
+Hgb
+Hydralazine
+Hydromorphone
+INR
+Insulin Humalog
+Insulin NPH
+Insulin Regular
+Insulin largine
+Intubated
+Jackson-Pratt
+KCl
+KCl (Bolus)
+LDH
+Lactate
+Lactated Ringers
+Levofloxacin
+Lorazepam
+Lymphocytes
+Lymphocytes (Absolute)
+MBP
+MCH
+MCHC
+MCV
+Magnesium
+Magnesium Sulfate (Bolus)
+Magnesium Sulphate
+Mechanically ventilated
+Metoprolol
+Midazolam
+Milrinone
+Monocytes
+Morphine Sulfate
+Neosynephrine
+Neutrophils
+Nitroglycerine
+Nitroprusside
+Norepinephrine
+Normal Saline
+O2 Saturation
+OR/PACU Crystalloid
+PCO2
+PO intake
+PO2
+PT
+PTT
+Packed RBC
+Pantoprazole
+Phosphate
+Piggyback
+Piperacillin
+Platelet Count
+Potassium
+Pre-admission Intake
+Pre-admission Output
+Propofol
+RBC
+RDW
+RR
+Residual
+SBP
+SG Urine
+Sodium
+Solution
+Sterile Water
+Stool
+TPN
+Temperature
+Total CO2
+Ultrafiltrate
+Unknown
+Urine
+Vancomycin
+Vasopressin
+WBC
+Weight
+pH Blood
+pH Urine
